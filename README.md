@@ -114,6 +114,8 @@ Android 카메라 프레임을 서버로 보내지 않고, 기기 내부에서 Y
 
 **Keywords**: Android, Kotlin, CameraX, TFLite, YOLO, FastAPI, SSE, Public Data, Cloud Run
 
+**My Role** (팀 프로젝트): 온디바이스 추론(Android · CameraX · TFLite/YOLO) · FastAPI 서버 · 실시간 대시보드 · 기획 / 공공데이터까지 전 영역 구현
+
 </td>
 <td width="50%" valign="top">
 
