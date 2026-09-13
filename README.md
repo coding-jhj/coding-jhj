@@ -1,18 +1,12 @@
-<table width="100%" cellpadding="20" cellspacing="0">
-  <tr>
-    <td valign="middle" width="58%">
-      <p><sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub></p>
-      <h1>Jeong Hwan Ju</h1>
-      <p><strong>Post-training Research Engineer</strong></p>
-      <blockquote>
-        <p>Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
-      </blockquote>
-    </td>
-    <td valign="middle" width="42%" align="center">
-      <img src="./assets/profile-systems-banner.svg" alt="Abstract network connecting AI systems, evaluation, and deployment" width="300" />
-    </td>
-  </tr>
-</table>
+<p align="center"><sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub></p>
+
+<h1 align="center">Jeong Hwan Ju</h1>
+
+<p align="center"><strong>Post-training Research Engineer</strong></p>
+
+<blockquote>
+  <p align="center">Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
+</blockquote>
 
 ---
 
