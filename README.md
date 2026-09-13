@@ -19,17 +19,17 @@
 
 ## PROOF AT A GLANCE
 
-<table width="100%" cellpadding="14" cellspacing="0" border="1" frame="void" rules="cols">
+<table align="center" width="100%" cellpadding="14" cellspacing="0" border="0" style="width:100%;max-width:100%;table-layout:fixed;border:0;border-collapse:collapse;">
   <tr>
-    <td align="center" width="33%">
+    <td align="center" width="33%" style="width:33.33%;border:0;border-right:1px solid #D0D7DE;">
       <p><strong><font size="6" color="#0969DA">03</font></strong><br />
       <strong>TEAM PROJECTS</strong></p>
     </td>
-    <td align="center" width="34%">
+    <td align="center" width="34%" style="width:33.34%;border:0;border-right:1px solid #D0D7DE;">
       <p><strong><font size="6" color="#D97706">01</font></strong><br />
       <strong>AWARD-WINNING LEAD</strong></p>
     </td>
-    <td align="center" width="33%">
+    <td align="center" width="33%" style="width:33.33%;border:0;">
       <p><strong><font size="6" color="#0969DA">08</font></strong><br />
       <strong>INDEPENDENT WORKS</strong></p>
     </td>
