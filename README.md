@@ -1,29 +1,31 @@
-<table width="100%" cellpadding="14" cellspacing="0">
+<table width="100%" cellpadding="16" cellspacing="0">
   <tr>
-    <td valign="top" width="64%">
+    <td valign="top" width="68%">
+      <sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub>
       <h1>Jeong Hwan Ju</h1>
-      <p><strong>Post-training Research Engineer</strong><br />
-      AI Engineer building toward post-training research.</p>
-      <p>I build evaluation-driven AI systems with grounded generation,<br />
-      explicit safety boundaries, and deployment-aware engineering.</p>
+      <p><strong>Post-training Research Engineer</strong></p>
+      <blockquote>
+        <p>Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
+      </blockquote>
     </td>
-    <td valign="top" width="36%">
-      <sub>PORTFOLIO FOCUS</sub><br />
-      <code>Evaluation</code> <code>Grounding</code> <code>Deployment</code>
-      <br /><br />
-      <sub>PROOF POINTS</sub><br />
-      <strong>3</strong> team projects first<br />
-      <strong>1</strong> award-winning lead project<br />
-      <strong>8</strong> independent works
+    <td valign="top" width="32%">
+      <sub>PROOF AT A GLANCE</sub>
+      <p><strong>03</strong><br /><sub>TEAM PROJECTS</sub></p>
+      <p><strong>01</strong><br /><sub>AWARD-WINNING LEAD</sub></p>
+      <p><strong>08</strong><br /><sub>INDEPENDENT WORKS</sub></p>
     </td>
   </tr>
 </table>
 
-<p>
+<p align="center">
   <a href="#selected-work">Selected Work</a> ·
   <a href="#research-direction">Research Direction</a> ·
   <a href="#independent-work">Independent Work</a> ·
   <a href="https://github.com/coding-jhj">GitHub</a>
+</p>
+
+<p>
+  <img src="./assets/selected-work-index.svg" alt="Selected work index: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
 </p>
 
 | Direction | Recognition | Selected Work |
@@ -34,10 +36,6 @@
 ## Selected Work
 
 <p>Three team projects first — each one shows a different way I turn AI systems into useful, testable products.</p>
-
-<p>
-  <img src="./assets/selected-work-index.svg" alt="Selected work index: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
-</p>
 
 <table width="100%" cellpadding="16" cellspacing="0">
   <tr>
