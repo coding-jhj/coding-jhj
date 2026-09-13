@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="./assets/profile-header-dark-dataflow.png" alt="Dark abstract data-flow poster for Jeong Hwan Ju's AI systems and research engineering portfolio" width="100%" />
-</div>
-
 <table width="100%" cellpadding="14" cellspacing="0">
   <tr>
     <td valign="top" width="64%">
