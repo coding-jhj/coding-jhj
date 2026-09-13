@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-header-editorial.png" alt="Editorial technical poster for Jeong Hwan Ju's AI systems and research engineering portfolio" width="100%" />
+  <img src="./assets/profile-header-dataflow.png" alt="Abstract data-flow poster for Jeong Hwan Ju's AI systems and research engineering portfolio" width="100%" />
 </div>
 
 <table width="100%" cellpadding="14" cellspacing="0">
