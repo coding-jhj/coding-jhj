@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="180" viewBox="0 0 1600 180" role="img" aria-labelledby="title desc">
+  <title id="title">Proof at a glance</title>
+  <desc id="desc">03 team projects, 01 award-winning lead, and 08 independent works.</desc>
+
+  <line x1="533.33" y1="20" x2="533.33" y2="160" stroke="#D0D7DE" stroke-width="2" />
+  <line x1="1066.67" y1="20" x2="1066.67" y2="160" stroke="#D0D7DE" stroke-width="2" />
+
+  <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="266.67" y="78" font-size="64" font-weight="700" fill="#0969DA">03</text>
+    <text x="266.67" y="126" font-size="22" font-weight="700" fill="#24292F">TEAM PROJECTS</text>
+
+    <text x="800" y="78" font-size="64" font-weight="700" fill="#D97706">01</text>
+    <text x="800" y="126" font-size="22" font-weight="700" fill="#24292F">AWARD-WINNING LEAD</text>
+
+    <text x="1333.33" y="78" font-size="64" font-weight="700" fill="#0969DA">08</text>
+    <text x="1333.33" y="126" font-size="22" font-weight="700" fill="#24292F">INDEPENDENT WORKS</text>
+  </g>
+</svg>
