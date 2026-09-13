@@ -1,235 +1,283 @@
-**AI SYSTEMS · EVALUATION · DEPLOYMENT**
-
-# Jeong Hwan Ju
-
-**Post-training Research Engineer**
-
-> Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.
-
----
-
-### PROOF AT A GLANCE
-
-| **03** | **01** | **08** |
-| --- | --- | --- |
-| TEAM PROJECTS | AWARD-WINNING LEAD | INDEPENDENT WORKS |
-
-**INDEX**
-
-[Selected Work](#selected-work) · [Research Direction](#research-direction) · [Independent Work](#independent-work) · [GitHub](https://github.com/coding-jhj)
-
-### PROFILE SNAPSHOT
-
-| Direction | Recognition | Selected Work |
-| --- | --- | --- |
-| **Post-training Research Engineer**<br>Research engineering preparation | **Minister of Employment and Labor Award**<br>[Lease-Companion](https://github.com/coding-jhj/Lease-Companion) · Team Lead, AI/LLM | **Lease-Companion**<br>VoiceGuide · Rainbow Bridge |
-
-## Selected Work
-
-> Three team projects first — each one shows a different way I turn AI systems into useful, testable products.
-
-### 01 / Recognition · [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
-
-**Awarded contract analysis assistant | Team Lead, AI/LLM**
-
-A contract review assistant for first-time tenants. It combines document extraction, cross-document validation, official-source retrieval, and a Python rule engine to provide evidence-backed questions and actions instead of unsafe legal or safety claims.
-
-**STACK**
-
-<kbd>Document AI</kbd> <kbd>Rule Engine</kbd> <kbd>RAG</kbd> <kbd>Privacy</kbd> <kbd>Evaluation</kbd>
-
-> **Offline evidence:** `Contract checks · 100/100` · `Judgment cases · 47/47`  
-> Fixed offline test data; not real-world contract coverage.
-
-↳ [Repository](https://github.com/coding-jhj/Lease-Companion) · [Evaluation Plan](https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md)
-
----
-
-### 02 / On-device AI · [VoiceGuide](https://github.com/coding-jhj/VoiceGuide)
-
-**Walking assistant for blind and low-vision users**
-
-An Android system that runs YOLO/TFLite obstacle detection on device camera frames, then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames to the server.
-
-**STACK**
-
-<kbd>Android</kbd> <kbd>Kotlin</kbd> <kbd>TFLite</kbd> <kbd>YOLO</kbd> <kbd>FastAPI</kbd> <kbd>Accessibility</kbd>
-
-↳ [Repository](https://github.com/coding-jhj/VoiceGuide)
-
----
-
-### 03 / AI Infrastructure · [Rainbow Bridge](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
-
-**AI and infrastructure contributor | Contribution branch: `jeonghwanju`**
-
-Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping, STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows, PM2 operations, and the demo video generation pipeline.
-
-**STACK**
-
-<kbd>Qwen3 TTS</kbd> <kbd>GPU Service</kbd> <kbd>Evaluation</kbd> <kbd>PM2</kbd> <kbd>Backend</kbd>
-
-↳ [Contribution Branch](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
-
-## Research Direction
-
-### 01 / Foundation model lab
-
-**Work:** **[foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab)**
-
-**What it demonstrates:** Reproducible decoder-only language model experiments covering tokenizers, causal self-attention, compact Transformers, checkpoints, validation loss, generation, and experiment records. **This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.**
-
----
-
-### 02 / Execution workspace
-
-**Work:** **[MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER)**
-
-**What it demonstrates:** A Plan → Do → See workspace for research goals, execution logs, reviews, and measurable next experiments. It documents my preparation for **Post-training Research Engineer** work.
-
----
-
-### 03 / Local-model direction
-
-**Work:** **Lease-Companion comparison track**
-
-**What it demonstrates:** An optional 7B 4-bit QLoRA comparison track. The current repository contains preprocessing, configuration, and evaluation scaffolding; **no trained weights or checkpoint are presented as completed results.**
-
-## Independent Work
-
-> Independent work is not a list of ideas. It is a record of implementing analysis, search, security, operations, and failure handling.
-
-**CODE ANALYSIS · AGENT**
-
-### 01 / [RepoPilot](https://github.com/coding-jhj/RepoPilot)
-
-**Evidence-grounded repository analysis agent**
-
-Accepts a public GitHub URL, indexes the files, and analyzes Python, JavaScript, and TypeScript structure with static rules. Results retain file-and-line evidence, patch drafts, scope validation, and an optional PR flow.
-
-**STACK**
-
-<kbd>FastAPI</kbd> <kbd>Next.js</kbd> <kbd>Static Analysis</kbd> <kbd>Evidence</kbd>
-
-↳ [Demo](https://jeonghwanju-repopilot.hf.space/) · [Code Guide](https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html)
-
----
-
-**PERSONAL KNOWLEDGE · RAG**
-
-### 02 / [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio)
-
-**Source-grounded personal AI workspace**
-
-Unifies documents, code, notebooks, spreadsheets, photo metadata, and MongoDB into one knowledge base. It shows local retrieval results as source cards and connects voice input with a local fallback when an external LLM fails.
-
-**STACK**
-
-<kbd>Streamlit</kbd> <kbd>TF-IDF</kbd> <kbd>Voice</kbd> <kbd>Fallback</kbd>
-
-↳ [Demo](https://jeonghwanju-personal-ai-studio.hf.space)
-
----
-
-**WEB SEARCH · REACT LOOP**
-
-### 03 / [AI_AGENT](https://github.com/coding-jhj/AI_AGENT)
-
-**Agent that decides when search is needed**
-
-Analyzes a question, decides whether to search, observes DuckDuckGo results, and continues with another search or an answer through a ReAct loop. It provides a FastAPI API and browser UI without storing the user-provided key on the server.
-
-**STACK**
-
-<kbd>Gemini</kbd> <kbd>LangChain</kbd> <kbd>DuckDuckGo</kbd> <kbd>FastAPI</kbd>
-
-↳ [Demo](https://jeonghwanju-ai-search-agent.hf.space)
-
----
-
-**DATA PIPELINE · OPERATIONS**
-
-### 04 / [Stelive_data](https://github.com/coding-jhj/Stelive_data)
-
-**Data product from collection to deployment**
-
-Regularly collects YouTube Data API and CHZZK data, builds JSON and CSV history, regenerates the dashboard, and deploys it to GitHub Pages. The repository captures a repeatable operational flow across different external sources.
-
-**STACK**
-
-<kbd>Python</kbd> <kbd>GitHub Actions</kbd> <kbd>JSON/CSV</kbd> <kbd>GitHub Pages</kbd>
-
-↳ [Dashboard](https://coding-jhj.github.io/Stelive_data/)
-
----
-
-**DEVELOPER TOOLING · SAFETY**
-
-### 05 / [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit)
-
-**Claude Code harness for Windows and PowerShell**
-
-Combines dangerous-command blocking, keyword-based skill routing, research verification guidance, and eight subagent templates. It documents non-ASCII encoding and PowerShell pipe issues and checks them with regression tests.
-
-**STACK**
-
-<kbd>PowerShell</kbd> <kbd>Safety Hooks</kbd> <kbd>Skill Router</kbd> <kbd>MIT</kbd>
-
----
-
-**SECURITY · PASSWORDLESS AUTH**
-
-### 06 / [Passkey Private Portfolio](https://github.com/coding-jhj/aleph-first-homework)
-
-**One service connecting a public portfolio and private workspace**
-
-Uses WebAuthn passkeys and separates account-scoped private data through a Vercel API and Supabase PostgreSQL. The security boundary covers challenge replay prevention, session protection, account-scope checks, and RLS.
-
-**STACK**
-
-<kbd>WebAuthn</kbd> <kbd>Vercel</kbd> <kbd>Supabase</kbd> <kbd>RLS</kbd>
-
----
-
-**RELIABILITY · DATA PRODUCT**
-
-### 07 / [Real Information Board](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK)
-
-**A dashboard that explains failures honestly**
-
-[ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK) and [MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD) distinguish timeout, authentication rejection, rate limits, offline status, and schema changes while preserving the last known good value. Live requests and replay fixtures share the same core path, with nine fixtures covering failure and recovery.
-
-**STACK**
-
-<kbd>Next.js</kbd> <kbd>TypeScript</kbd> <kbd>Supabase</kbd> <kbd>Replay</kbd>
-
-↳ [Demo](https://t04-real-information-board.vercel.app)
-
----
-
-**CREATIVE ENGINEERING · BROWSER GAME**
-
-### 08 / [ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE)
-
-**A turn-based RPG playable directly in the browser**
-
-Connects the world map, town, guild, shop, NPC, dungeon, battle, compendium, and equipment-upgrade flows through static hosting. It includes a Canvas pixel background, modular code, responsive mobile layout, and headless QA for battles, saves, and progression gates.
-
-**STACK**
-
-<kbd>HTML/CSS/JS</kbd> <kbd>Canvas</kbd> <kbd>Responsive</kbd> <kbd>Playwright</kbd>
-
-↳ [Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/)
-
-## Toolkit
-
-**TOOLS**
-
-<kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>Pydantic</kbd> <kbd>PostgreSQL</kbd> <kbd>Chroma</kbd> <kbd>BM25</kbd> <kbd>Gemini</kbd> <kbd>RAG</kbd> <kbd>QLoRA</kbd>
-
-<kbd>Kotlin</kbd> <kbd>Android</kbd> <kbd>TFLite</kbd> <kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Docker</kbd> <kbd>GitHub Actions</kbd>
-
-## All Public Repositories
+<table width="100%" cellpadding="24" cellspacing="0" bgcolor="#0b111d">
+  <tr>
+    <td valign="top" width="68%">
+      <sub><font color="#c4b5fd">AI SYSTEMS · EVALUATION · DEPLOYMENT</font></sub>
+      <h1><font color="#f8fafc">Jeong Hwan Ju</font></h1>
+      <p><strong><font color="#f0abfc">Post-training Research Engineer</font></strong></p>
+      <blockquote>
+        <p><font color="#d6deea">Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</font></p>
+      </blockquote>
+    </td>
+    <td valign="top" width="32%">
+      <sub><font color="#22d3ee">PROOF AT A GLANCE</font></sub>
+      <p><font color="#a78bfa"><strong>03</strong></font><br /><sub><font color="#93a4ba">TEAM PROJECTS</font></sub></p>
+      <p><font color="#fb7185"><strong>01</strong></font><br /><sub><font color="#93a4ba">AWARD-WINNING LEAD</font></sub></p>
+      <p><font color="#22d3ee"><strong>08</strong></font><br /><sub><font color="#93a4ba">INDEPENDENT WORKS</font></sub></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="#selected-work"><code>01 · SELECTED WORK</code></a> ·
+  <a href="#research-direction"><code>02 · RESEARCH DIRECTION</code></a> ·
+  <a href="#independent-work"><code>03 · INDEPENDENT WORK</code></a> ·
+  <a href="https://github.com/coding-jhj"><code>GITHUB</code></a>
+</p>
+
+<table width="100%" cellpadding="18" cellspacing="0" bgcolor="#0e1726">
+  <tr>
+    <td valign="top" width="33%">
+      <sub><font color="#a78bfa">DIRECTION</font></sub>
+      <p><strong>Post-training Research Engineer</strong><br /><sub>Research engineering preparation</sub></p>
+    </td>
+    <td valign="top" width="34%">
+      <sub><font color="#fb7185">RECOGNITION</font></sub>
+      <p><strong>Minister of Employment and Labor Award</strong><br /><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> · Team Lead, AI/LLM</p>
+    </td>
+    <td valign="top" width="33%">
+      <sub><font color="#22d3ee">SELECTED WORK</font></sub>
+      <p><strong>Lease-Companion</strong><br />VoiceGuide · Rainbow Bridge</p>
+    </td>
+  </tr>
+</table>
+
+<a id="selected-work"></a>
+<h2>Selected Work</h2>
+
+<p>Three team projects first — each one shows a different way I turn AI systems into useful, testable products.</p>
+
+<table width="100%" cellpadding="18" cellspacing="0" bgcolor="#111b2b">
+  <tr>
+    <td valign="middle" width="29%" align="center">
+      <img src="./assets/projects/project-lease-companion.jpg" alt="Lease-Companion: contract documents connected to evidence validation" width="320" /><br />
+      <sub><font color="#a78bfa">CONTRACT / EVIDENCE</font></sub>
+    </td>
+    <td valign="top">
+      <h3>Recognition · <a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a></h3>
+      <strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong>
+      <p>A contract review assistant for first-time tenants. It combines document extraction,
+      cross-document validation, official-source retrieval, and a Python rule engine to provide
+      evidence-backed questions and actions instead of unsafe legal or safety claims.</p>
+      <p>
+        <sub>STACK</sub><br />
+        <code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code>
+      </p>
+      <p>
+        <strong>Offline evidence:</strong>
+        <code>Contract checks · 100/100</code> ·
+        <code>Judgment cases · 47/47</code><br />
+        <sub>Fixed offline test data; not real-world contract coverage.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> ·
+        <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<table width="100%" cellpadding="18" cellspacing="0" bgcolor="#111b2b">
+  <tr>
+    <td valign="middle" width="29%" align="center">
+      <img src="./assets/projects/project-voiceguide.jpg" alt="VoiceGuide: smartphone navigation and risk-aware accessibility guidance" width="320" /><br />
+      <sub><font color="#fb7185">MOBILE / ACCESSIBILITY</font></sub>
+    </td>
+    <td valign="top">
+      <h3>On-device AI · <a href="https://github.com/coding-jhj/VoiceGuide">VoiceGuide</a></h3>
+      <strong>Walking assistant for blind and low-vision users</strong>
+      <p>An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
+      then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
+      connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
+      to the server.</p>
+      <p>
+        <sub>STACK</sub><br />
+        <code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code>
+      </p>
+      <p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
+    </td>
+  </tr>
+</table>
+
+<table width="100%" cellpadding="18" cellspacing="0" bgcolor="#111b2b">
+  <tr>
+    <td valign="middle" width="29%" align="center">
+      <img src="./assets/projects/project-rainbow-bridge.jpg" alt="Rainbow Bridge: GPU service, TTS pipeline, and audio infrastructure" width="320" /><br />
+      <sub><font color="#22d3ee">GPU / PIPELINE</font></sub>
+    </td>
+    <td valign="top">
+      <h3>AI Infrastructure · <a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Rainbow Bridge</a></h3>
+      <strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong>
+      <p>Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
+      STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
+      PM2 operations, and the demo video generation pipeline.</p>
+      <p>
+        <sub>STACK</sub><br />
+        <code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code>
+      </p>
+      <p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
+    </td>
+  </tr>
+</table>
+
+<a id="research-direction"></a>
+<h2>Research Direction</h2>
+
+<table width="100%" cellpadding="18" cellspacing="8">
+  <tr>
+    <th align="left" bgcolor="#0e1726">Direction</th>
+    <th align="left" bgcolor="#0e1726">Work</th>
+    <th align="left" bgcolor="#0e1726">What it demonstrates</th>
+  </tr>
+  <tr>
+    <td valign="top" width="33%" bgcolor="#111b2b">
+      <sub><font color="#a78bfa">FOUNDATION MODEL LAB</font></sub>
+      <h3><a href="https://github.com/coding-jhj/foundation-model-lab">foundation-model-lab</a></h3>
+      <p>Reproducible decoder-only language model experiments covering tokenizers, causal self-attention, compact Transformers, checkpoints, validation loss, generation, and experiment records.</p>
+      <hr />
+      <sub>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</sub>
+    </td>
+    <td valign="top" width="33%" bgcolor="#111b2b">
+      <sub><font color="#fb7185">02 / EXECUTION WORKSPACE</font></sub>
+      <h3><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">MY_CAREER_PLANNER</a></h3>
+      <p>A Plan → Do → See workspace for research goals, execution logs, reviews, and measurable next experiments.</p>
+      <hr />
+      <sub>It documents my preparation for <strong>Post-training Research Engineer</strong> work.</sub>
+    </td>
+    <td valign="top" width="34%" bgcolor="#111b2b">
+      <sub><font color="#22d3ee">LOCAL-MODEL DIRECTION</font></sub>
+      <h3>Lease-Companion comparison track</h3>
+      <p>An optional 7B 4-bit QLoRA comparison track. The current repository contains preprocessing, configuration, and evaluation scaffolding;<br />
+      <sub><strong>no trained weights or checkpoint are presented as completed results.</strong></sub></p>
+    </td>
+  </tr>
+</table>
+
+<a id="independent-work"></a>
+<h2>Independent Work</h2>
+
+<p>Independent work is not a list of ideas. It is a record of implementing analysis, search, security, operations, and failure handling.</p>
+
+<table width="100%" cellpadding="14" cellspacing="8">
+  <tr>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#a78bfa">CODE ANALYSIS · AGENT</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/RepoPilot">RepoPilot</a></h3><strong>Evidence-grounded repository analysis agent</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-repopilot.jpg" alt="RepoPilot repository analysis evidence graph" width="210" /></td>
+        </tr>
+      </table>
+      <p>Accepts a public GitHub URL, indexes the files, and analyzes Python, JavaScript, and TypeScript structure with static rules. Results retain file-and-line evidence, patch drafts, scope validation, and an optional PR flow.</p>
+      <p><code>FastAPI</code> <code>Next.js</code> <code>Static Analysis</code> <code>Evidence</code></p>
+      <p><a href="https://jeonghwanju-repopilot.hf.space/">Demo</a> · <a href="https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html">Code Guide</a></p>
+    </td>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#fb7185">PERSONAL KNOWLEDGE · RAG</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/Personal-AI-Studio">Personal-AI-Studio</a></h3><strong>Source-grounded personal AI workspace</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-personal-ai-studio.jpg" alt="Personal-AI-Studio grounded knowledge graph" width="210" /></td>
+        </tr>
+      </table>
+      <p>Unifies documents, code, notebooks, spreadsheets, photo metadata, and MongoDB into one knowledge base. It shows local retrieval results as source cards and connects voice input with a local fallback when an external LLM fails.</p>
+      <p><code>Streamlit</code> <code>TF-IDF</code> <code>Voice</code> <code>Fallback</code></p>
+      <p><a href="https://jeonghwanju-personal-ai-studio.hf.space">Demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#22d3ee">WEB SEARCH · REACT LOOP</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/AI_AGENT">AI_AGENT</a></h3><strong>Agent that decides when search is needed</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-ai-agent.jpg" alt="AI_AGENT search decision and ReAct loop" width="210" /></td>
+        </tr>
+      </table>
+      <p>Analyzes a question, decides whether to search, observes DuckDuckGo results, and continues with another search or an answer through a ReAct loop. It provides a FastAPI API and browser UI without storing the user-provided key on the server.</p>
+      <p><code>Gemini</code> <code>LangChain</code> <code>DuckDuckGo</code> <code>FastAPI</code></p>
+      <p><a href="https://jeonghwanju-ai-search-agent.hf.space">Demo</a></p>
+    </td>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#bef264">DATA PIPELINE · OPERATIONS</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/Stelive_data">Stelive_data</a></h3><strong>Data product from collection to deployment</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-stelive-data.jpg" alt="Stelive_data collection, transformation, and deployment flow" width="210" /></td>
+        </tr>
+      </table>
+      <p>Regularly collects YouTube Data API and CHZZK data, builds JSON and CSV history, regenerates the dashboard, and deploys it to GitHub Pages. The repository captures a repeatable operational flow across different external sources.</p>
+      <p><code>Python</code> <code>GitHub Actions</code> <code>JSON/CSV</code> <code>GitHub Pages</code></p>
+      <p><a href="https://coding-jhj.github.io/Stelive_data/">Dashboard</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#fbbf24">DEVELOPER TOOLING · SAFETY</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/claude-pwsh-kit">claude-pwsh-kit</a></h3><strong>Claude Code harness for Windows and PowerShell</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-claude-pwsh-kit.jpg" alt="PowerShell safe execution gate" width="210" /></td>
+        </tr>
+      </table>
+      <p>Combines dangerous-command blocking, keyword-based skill routing, research verification guidance, and eight subagent templates. It documents non-ASCII encoding and PowerShell pipe issues and checks them with regression tests.</p>
+      <p><code>PowerShell</code> <code>Safety Hooks</code> <code>Skill Router</code> <code>MIT</code></p>
+    </td>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#a78bfa">SECURITY · PASSWORDLESS AUTH</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/aleph-first-homework">Passkey Private Portfolio</a></h3><strong>One service connecting a public portfolio and private workspace</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-passkey-private-portfolio.jpg" alt="Passkey boundary between public and private portfolio data" width="210" /></td>
+        </tr>
+      </table>
+      <p>Uses WebAuthn passkeys and separates account-scoped private data through a Vercel API and Supabase PostgreSQL. The security boundary covers challenge replay prevention, session protection, account-scope checks, and RLS.</p>
+      <p><code>WebAuthn</code> <code>Vercel</code> <code>Supabase</code> <code>RLS</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#fb7185">RELIABILITY · DATA PRODUCT</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK">Real Information Board</a></h3><strong>A dashboard that explains failures honestly</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-real-information-board.jpg" alt="Real Information Board failure states and recovery timeline" width="210" /></td>
+        </tr>
+      </table>
+      <p><a href="https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK">ALPEH_FIFTH_HOMEWORK</a> and <a href="https://github.com/coding-jhj/MINECRART_DASHBOARD">MINECRART_DASHBOARD</a> distinguish timeout, authentication rejection, rate limits, offline status, and schema changes while preserving the last known good value. Live requests and replay fixtures share the same core path, with nine fixtures covering failure and recovery.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Replay</code></p>
+      <p><a href="https://t04-real-information-board.vercel.app">Demo</a></p>
+    </td>
+    <td valign="top" width="50%" bgcolor="#0e1726">
+      <sub><font color="#22d3ee">CREATIVE ENGINEERING · BROWSER GAME</font></sub>
+      <table width="100%" cellpadding="4" cellspacing="0">
+        <tr>
+          <td valign="top"><h3><a href="https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE">ARKAN_FORGOTTEN_THRONE</a></h3><strong>A turn-based RPG playable directly in the browser</strong></td>
+          <td valign="top" align="right"><img src="./assets/projects/project-arkan.jpg" alt="ARKAN_FORGOTTEN_THRONE browser RPG world, battle, and growth loop" width="210" /></td>
+        </tr>
+      </table>
+      <p>Connects the world map, town, guild, shop, NPC, dungeon, battle, compendium, and equipment-upgrade flows through static hosting. It includes a Canvas pixel background, modular code, responsive mobile layout, and headless QA for battles, saves, and progression gates.</p>
+      <p><code>HTML/CSS/JS</code> <code>Canvas</code> <code>Responsive</code> <code>Playwright</code></p>
+      <p><a href="https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/">Play</a></p>
+    </td>
+  </tr>
+</table>
+
+<h2>Toolkit</h2>
+
+<p><sub><font color="#a78bfa">TOOLS</font></sub></p>
+
+<table width="100%" cellpadding="18" cellspacing="8">
+  <tr>
+    <td valign="top" width="50%" bgcolor="#111b2b">
+      <code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> <code>Chroma</code> <code>BM25</code> <code>Gemini</code> <code>RAG</code> <code>QLoRA</code>
+    </td>
+    <td valign="top" width="50%" bgcolor="#111b2b">
+      <code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> <code>Docker</code> <code>GitHub Actions</code>
+    </td>
+  </tr>
+</table>
+
+<h2>All Public Repositories</h2>
 
 <details>
   <summary><strong>Explore all 23 public repositories</strong></summary>
@@ -271,6 +319,6 @@ Connects the world map, town, guild, shop, NPC, dungeon, battle, compendium, and
 
 </details>
 
-## Contact
+<h2>Contact</h2>
 
-↳ [GitHub](https://github.com/coding-jhj)
+<p><a href="https://github.com/coding-jhj"><strong>↳ GitHub</strong></a></p>
