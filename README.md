@@ -1,28 +1,44 @@
-<p align="center"><sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub></p>
-
-<h1 align="center">Jeong Hwan Ju</h1>
-
-<p align="center"><strong>Post-training Research Engineer</strong></p>
-
-<blockquote>
-  <p align="center">Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
-</blockquote>
+<table width="100%" cellpadding="18" cellspacing="0">
+  <tr>
+    <td valign="middle" width="58%">
+      <p><strong>AI SYSTEMS · EVALUATION · DEPLOYMENT</strong></p>
+      <h1>Jeong Hwan Ju</h1>
+      <h3>Post-training Research Engineer</h3>
+      <p>Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
+    </td>
+    <td valign="middle" width="42%" align="center">
+      <p><img src="./assets/projects/project-lease-companion.jpg" alt="Lease-Companion: contract documents connected to evidence validation" width="360" /></p>
+      <p><strong><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a></strong><br />
+      Team Lead, AI/LLM<br />
+      <strong>Minister of Employment and Labor Award</strong></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## PROOF AT A GLANCE
 
-| 03 | 01 | 08 |
-| :---: | :---: | :---: |
-| **TEAM PROJECTS** | **AWARD-WINNING LEAD** | **INDEPENDENT WORKS** |
-
-<p align="center"><sub>01 · SELECTED WORK · 02 · RESEARCH DIRECTION · 03 · INDEPENDENT WORK · <a href="https://github.com/coding-jhj">GITHUB</a></sub></p>
-
-<p align="center"><sub>PROFILE SNAPSHOT</sub></p>
+<table width="100%" cellpadding="14" cellspacing="0" border="1" frame="void" rules="cols">
+  <tr>
+    <td align="center" width="33%">
+      <p><strong><font size="6" color="#0969DA">03</font></strong><br />
+      <strong>TEAM PROJECTS</strong></p>
+    </td>
+    <td align="center" width="34%">
+      <p><strong><font size="6" color="#D97706">01</font></strong><br />
+      <strong>AWARD-WINNING LEAD</strong></p>
+    </td>
+    <td align="center" width="33%">
+      <p><strong><font size="6" color="#0969DA">08</font></strong><br />
+      <strong>INDEPENDENT WORKS</strong></p>
+    </td>
+  </tr>
+</table>
 
 | Direction | Recognition | Selected Work |
 | --- | --- | --- |
-| **Post-training Research Engineer**<br /><sub>Research engineering preparation</sub> | **Minister of Employment and Labor Award**<br /><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> · Team Lead, AI/LLM | **Lease-Companion**<br />**VoiceGuide · Team Lead** · Rainbow Bridge |
+| **Post-training Research Engineer**<br />Research engineering preparation | **Minister of Employment and Labor Award**<br /><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> · Team Lead, AI/LLM | **Lease-Companion**<br />**VoiceGuide · Team Lead** · Rainbow Bridge |
 
 ---
 
