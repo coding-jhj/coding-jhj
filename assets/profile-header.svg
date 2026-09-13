@@ -1,0 +1,27 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF7" />
+      <stop offset="1" stop-color="#F3F7FF" />
+    </linearGradient>
+    <linearGradient id="blue" x1="730" y1="0" x2="1130" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB" />
+      <stop offset="1" stop-color="#60A5FA" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="24" fill="url(#paper)" />
+  <path d="M760 0H1200V260H890C890 260 950 188 900 120C850 52 760 0 760 0Z" fill="url(#blue)" opacity="0.94" />
+  <circle cx="1040" cy="62" r="88" fill="#F97316" opacity="0.88" />
+  <circle cx="1114" cy="196" r="48" fill="#FBBF24" opacity="0.9" />
+  <path d="M735 214C816 177 846 118 900 84C950 52 1015 40 1096 46" stroke="#0F766E" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+  <path d="M730 228C820 192 856 142 910 111C972 76 1032 71 1122 82" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.85" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="72" y="72" fill="#64748B" font-size="14" font-weight="700" letter-spacing="4">AI SYSTEMS / RESEARCH ENGINEERING</text>
+    <text x="72" y="132" fill="#0F172A" font-size="48" font-weight="800" letter-spacing="1">POST-TRAINING</text>
+    <text x="74" y="174" fill="#2563EB" font-size="18" font-weight="700" letter-spacing="3">EVALUATION  /  GROUNDING  /  DEPLOYMENT</text>
+    <rect x="74" y="205" width="116" height="4" rx="2" fill="#F97316" />
+    <rect x="198" y="205" width="66" height="4" rx="2" fill="#0F766E" />
+  </g>
+</svg>
