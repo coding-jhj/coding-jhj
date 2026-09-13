@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" alt="Abstract profile header for post-training research" />
+<img src="./assets/profile-header.svg" alt="Abstract profile header for post-training research" width="100%" />
 
 # Jeong Hwan Ju
 
@@ -27,44 +27,83 @@ explicit safety boundaries, and deployment-aware engineering.
 
 ### 01 / Recognition | [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
 
-**Awarded contract analysis assistant | Team Lead, AI/LLM**
+<table>
+  <tr>
+    <td valign="top" width="18%"><sub>ROLE</sub></td>
+    <td valign="top"><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>ABOUT</sub></td>
+    <td valign="top">A contract review assistant for first-time tenants. It combines document extraction,
+    cross-document validation, official-source retrieval, and a Python rule engine to provide
+    evidence-backed questions and actions instead of unsafe legal or safety claims.</td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>STACK</sub></td>
+    <td valign="top"><code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>EVIDENCE</sub></td>
+    <td valign="top"><strong>Offline evidence:</strong> <code>R01-R10: 100/100</code> | <code>J01-J13: 51/51</code><br />
+    Fixed synthetic goldset regression results, not a claim about every real contract.</td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>LINKS</sub></td>
+    <td valign="top"><a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> |
+    <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a></td>
+  </tr>
+</table>
 
-A contract review assistant for first-time tenants. It combines document extraction,
-cross-document validation, official-source retrieval, and a Python rule engine to provide
-evidence-backed questions and actions instead of unsafe legal or safety claims.
-
-`Document AI` `Rule Engine` `RAG` `Privacy` `Evaluation`
-
-**Offline evidence:** `R01-R10: 100/100` | `J01-J13: 51/51`<br />
-Fixed synthetic goldset regression results, not a claim about every real contract.
-
-[Repository](https://github.com/coding-jhj/Lease-Companion) |
-[Evaluation Plan](https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md)
+<hr />
 
 ### 02 / On-device AI | [VoiceGuide](https://github.com/coding-jhj/VoiceGuide)
 
-**Walking assistant for blind and low-vision users**
+<table>
+  <tr>
+    <td valign="top" width="18%"><sub>ROLE</sub></td>
+    <td valign="top"><strong>Walking assistant for blind and low-vision users</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>ABOUT</sub></td>
+    <td valign="top">An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
+    then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
+    connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
+    to the server.</td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>STACK</sub></td>
+    <td valign="top"><code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>LINKS</sub></td>
+    <td valign="top"><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></td>
+  </tr>
+</table>
 
-An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
-then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
-connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
-to the server.
-
-`Android` `Kotlin` `TFLite` `YOLO` `FastAPI` `Accessibility`
-
-[Repository](https://github.com/coding-jhj/VoiceGuide)
+<hr />
 
 ### 03 / AI Infrastructure | [Rainbow-Bridge](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
 
-**AI and infrastructure contributor | Contribution branch: `jeonghwanju`**
-
-Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
-STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
-PM2 operations, and the demo video generation pipeline.
-
-`Qwen3 TTS` `GPU Service` `Evaluation` `PM2` `Backend`
-
-[Contribution Branch](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
+<table>
+  <tr>
+    <td valign="top" width="18%"><sub>ROLE</sub></td>
+    <td valign="top"><strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>ABOUT</sub></td>
+    <td valign="top">Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
+    STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
+    PM2 operations, and the demo video generation pipeline.</td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>STACK</sub></td>
+    <td valign="top"><code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code></td>
+  </tr>
+  <tr>
+    <td valign="top"><sub>LINKS</sub></td>
+    <td valign="top"><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></td>
+  </tr>
+</table>
 
 ## Research Direction
 
