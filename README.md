@@ -2,188 +2,140 @@
   <img src="./assets/profile-cover.svg" alt="Jeong Hwan Ju — post-training research engineering portfolio" width="100%" />
 </div>
 
-<table width="100%" cellpadding="22" cellspacing="0">
-  <tr>
-    <td align="center" bgcolor="#090D18">
-      <h1><font color="#F8FAFC">JEONG HWAN JU</font></h1>
-      <h2><font color="#C084FC">POST-TRAINING RESEARCH ENGINEER</font></h2>
-      <p><font color="#CBD5E1">I build evaluation-driven AI systems with grounded generation,<br />
-      explicit safety boundaries, and deployment-aware engineering.</font></p>
-      <p>
-        <font color="#A78BFA">EVALUATION</font>
-        <font color="#64748B"> · </font>
-        <font color="#FB7185">GROUNDING</font>
-        <font color="#64748B"> · </font>
-        <font color="#22D3EE">DEPLOYMENT</font>
-      </p>
-    </td>
-  </tr>
-</table>
+<h1 align="center">JEONG HWAN JU</h1>
 
 <p align="center">
-  <a href="#selected-work"><font color="#8B5CF6">Selected Work</font></a> ·
-  <a href="#research-direction"><font color="#F43F5E">Research Direction</font></a> ·
-  <a href="#independent-work"><font color="#0891B2">Independent Work</font></a> ·
-  <a href="https://github.com/coding-jhj"><font color="#475569">GitHub</font></a>
+  <strong>Post-training Research Engineer</strong><br />
+  I build evaluation-driven AI systems with grounded generation,<br />
+  explicit safety boundaries, and deployment-aware engineering.
 </p>
 
-<table width="100%" cellpadding="18" cellspacing="0">
-  <tr>
-    <td valign="top" width="33%" bgcolor="#17112A">
-      <font color="#C084FC"><sub>DIRECTION</sub></font><br />
-      <strong><font color="#F8FAFC">Post-training Research Engineer</font></strong><br />
-      <font color="#A5B4FC"><sub>Research engineering preparation</sub></font>
-    </td>
-    <td valign="top" width="34%" bgcolor="#24121C">
-      <font color="#FB7185"><sub>RECOGNITION</sub></font><br />
-      <strong><font color="#F8FAFC">Minister of Employment and Labor Award</font></strong><br />
-      <a href="https://github.com/coding-jhj/Lease-Companion"><font color="#FDA4AF">Lease-Companion</font></a>
-      <font color="#CBD5E1"> · Team Lead, AI/LLM</font>
-    </td>
-    <td valign="top" width="33%" bgcolor="#0C2430">
-      <font color="#22D3EE"><sub>FOCUS</sub></font><br />
-      <strong><font color="#F8FAFC">Evaluation · Grounding · Deployment</font></strong><br />
-      <font color="#A5F3FC"><sub>Research with real constraints</sub></font>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="#selected-work">Selected Work</a> ·
+  <a href="#research-direction">Research Direction</a> ·
+  <a href="#independent-work">Independent Work</a> ·
+  <a href="https://github.com/coding-jhj">GitHub</a>
+</p>
 
-<a id="selected-work"></a>
-## <font color="#111827">Selected Work</font>
+<hr />
 
-<p><font color="#475569">Three team projects first — each one shows a different way I turn AI systems into useful, testable products.</font></p>
-
-<p>
+<p align="center">
   <img src="./assets/selected-work-index.svg" alt="Selected work: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
 </p>
 
-<table width="100%" cellpadding="20" cellspacing="0">
-  <tr>
-    <td valign="top" width="22%" bgcolor="#26143A">
-      <font color="#C084FC"><sub>RECOGNITION</sub></font><br />
-      <h3><font color="#F8FAFC">LEASE-COMPANION</font></h3>
-      <font color="#DDD6FE"><sub>TEAM LEAD · AI/LLM</sub></font>
-    </td>
-    <td valign="top" bgcolor="#101827">
-      <strong><font color="#F8FAFC">Awarded contract analysis assistant | Team Lead, AI/LLM</font></strong>
-      <p><font color="#CBD5E1">A contract review assistant for first-time tenants. It combines document extraction,
-      cross-document validation, official-source retrieval, and a Python rule engine to provide
-      evidence-backed questions and actions instead of unsafe legal or safety claims.</font></p>
-      <font color="#C084FC"><sub>CAPABILITIES</sub></font><br />
-      <code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code>
-      <p>
-        <strong><font color="#F8FAFC">Offline evidence</font></strong><br />
-        <font color="#A78BFA">Contract checks · 100/100</font>
-        <font color="#64748B"> · </font>
-        <font color="#FB7185">Judgment cases · 47/47</font><br />
-        <font color="#94A3B8"><sub>Fixed offline test data; not real-world contract coverage.</sub></font>
-      </p>
-      <p>
-        <a href="https://github.com/coding-jhj/Lease-Companion"><font color="#C084FC">Repository →</font></a> ·
-        <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md"><font color="#FDA4AF">Evaluation Plan →</font></a>
-      </p>
-    </td>
-  </tr>
-</table>
+<a id="selected-work"></a>
+## Selected Work
 
-<br />
+<p>Three team projects first — each one shows a different way I turn AI systems into useful, testable products.</p>
 
-<table width="100%" cellpadding="20" cellspacing="0">
-  <tr>
-    <td valign="top" width="22%" bgcolor="#321827">
-      <font color="#FB7185"><sub>ON-DEVICE AI</sub></font><br />
-      <h3><font color="#F8FAFC">VOICEGUIDE</font></h3>
-      <font color="#FECDD3"><sub>ACCESSIBILITY · PRIVACY</sub></font>
-    </td>
-    <td valign="top" bgcolor="#111827">
-      <strong><font color="#F8FAFC">Walking assistant for blind and low-vision users</font></strong>
-      <p><font color="#CBD5E1">An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
-      then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
-      connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
-      to the server.</font></p>
-      <font color="#FB7185"><sub>CAPABILITIES</sub></font><br />
-      <code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code>
-      <p><a href="https://github.com/coding-jhj/VoiceGuide"><font color="#FB7185">Repository →</font></a></p>
-    </td>
-  </tr>
-</table>
+<p>
+  <img src="./assets/selected-work-neon.png" alt="Neon project cards in order: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
+</p>
 
-<br />
+<p align="center">
+  <a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> ·
+  <a href="https://github.com/coding-jhj/VoiceGuide">VoiceGuide</a> ·
+  <a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Rainbow Bridge contribution branch</a>
+</p>
 
-<table width="100%" cellpadding="20" cellspacing="0">
-  <tr>
-    <td valign="top" width="22%" bgcolor="#0C2B36">
-      <font color="#22D3EE"><sub>AI INFRASTRUCTURE</sub></font><br />
-      <h3><font color="#F8FAFC">RAINBOW BRIDGE</font></h3>
-      <font color="#A5F3FC"><sub>CONTRIBUTION BRANCH</sub></font>
-    </td>
-    <td valign="top" bgcolor="#0E1B27">
-      <strong><font color="#F8FAFC">AI and infrastructure contributor | Branch: <code>jeonghwanju</code></font></strong>
-      <p><font color="#CBD5E1">Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
-      STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
-      PM2 operations, and the demo video generation pipeline.</font></p>
-      <font color="#22D3EE"><sub>CAPABILITIES</sub></font><br />
-      <code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code>
-      <p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju"><font color="#22D3EE">Contribution Branch →</font></a></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <strong>Offline evidence:</strong>
+  <code>Contract checks · 100/100</code> ·
+  <code>Judgment cases · 47/47</code><br />
+  <sub>Fixed offline test data; not real-world contract coverage.</sub>
+</p>
+
+<details>
+  <summary><strong>Lease-Companion · Team Lead, AI/LLM</strong></summary>
+
+  <p><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></p>
+
+  <p>A contract review assistant for first-time tenants. It combines document extraction,
+  cross-document validation, official-source retrieval, and a Python rule engine to provide
+  evidence-backed questions and actions instead of unsafe legal or safety claims.</p>
+
+  <p><code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code></p>
+
+  <p>
+    <a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> ·
+    <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a>
+  </p>
+</details>
+
+<details>
+  <summary><strong>VoiceGuide · On-device AI and accessibility</strong></summary>
+
+  <p><strong>Walking assistant for blind and low-vision users</strong></p>
+
+  <p>An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
+  then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
+  connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
+  to the server.</p>
+
+  <p><code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code></p>
+
+  <p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
+</details>
+
+<details>
+  <summary><strong>Rainbow Bridge · AI infrastructure contributor</strong></summary>
+
+  <p><strong>Contribution branch: <code>jeonghwanju</code></strong></p>
+
+  <p>Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
+  STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
+  PM2 operations, and the demo video generation pipeline.</p>
+
+  <p><code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code></p>
+
+  <p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
+</details>
 
 <a id="research-direction"></a>
-## <font color="#111827">Research Direction</font>
+## Research Direction
 
-<table width="100%" cellpadding="22" cellspacing="0">
-  <tr>
-    <td bgcolor="#17112A">
-      <font color="#C084FC"><sub>CURRENT DIRECTION</sub></font>
-      <h2><font color="#F8FAFC">Post-training Research Engineer</font></h2>
-      <p><font color="#CBD5E1">I am building the research engineering foundation needed to make model behavior
-      measurable, reproducible, and useful in real products.</font></p>
-    </td>
-  </tr>
-</table>
+<p>
+  <img src="./assets/research-direction-neon.png" alt="Neon research direction panel for post-training research engineering, model feedback, reward modeling, evaluation, toolkit, and GitHub contact" width="100%" />
+</p>
 
-<br />
+<p align="center">
+  <strong>Post-training Research Engineer</strong><br />
+  Building the research engineering foundation needed to make model behavior measurable,
+  reproducible, and useful in real products.
+</p>
 
-<table width="100%" cellpadding="18" cellspacing="0">
-  <tr>
-    <td valign="top" width="22%" bgcolor="#17223D">
-      <font color="#93C5FD"><sub>REPRODUCIBLE MODEL EXPERIMENTS</sub></font>
-    </td>
-    <td valign="top" bgcolor="#F8FAFC">
-      <strong><a href="https://github.com/coding-jhj/foundation-model-lab">foundation-model-lab</a></strong>
-      <p>Reproducible decoder-only language model experiments covering tokenizers,
-      causal self-attention, compact Transformers, checkpoints, validation loss,
-      generation, and experiment records.</p>
-      <p><strong>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" bgcolor="#332717">
-      <font color="#FBBF24"><sub>EXECUTION WORKSPACE</sub></font>
-    </td>
-    <td valign="top" bgcolor="#FFFCF4">
-      <strong><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">MY_CAREER_PLANNER</a></strong>
-      <p>A Plan → Do → See workspace for research goals, execution logs, reviews,
-      and measurable next experiments. It documents my preparation for
-      <strong>Post-training Research Engineer</strong> work.</p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" bgcolor="#26143A">
-      <font color="#C084FC"><sub>CURRENT EXPERIMENT TRACK</sub></font>
-    </td>
-    <td valign="top" bgcolor="#FBFAFF">
-      <strong>Local-model direction</strong>
-      <p>Lease-Companion contains an optional 7B 4-bit QLoRA comparison track. The current
-      repository contains preprocessing, configuration, and evaluation scaffolding;
-      <strong>no trained weights or checkpoint are presented as completed results.</strong></p>
-    </td>
-  </tr>
-</table>
+<details>
+  <summary><strong>foundation-model-lab · Reproducible model experiments</strong></summary>
+
+  <p>Reproducible decoder-only language model experiments covering tokenizers,
+  causal self-attention, compact Transformers, checkpoints, validation loss,
+  generation, and experiment records.</p>
+
+  <p><strong>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</strong></p>
+
+  <p><a href="https://github.com/coding-jhj/foundation-model-lab">Open foundation-model-lab</a></p>
+</details>
+
+<details>
+  <summary><strong>MY_CAREER_PLANNER · Execution workspace</strong></summary>
+
+  <p>A Plan → Do → See workspace for research goals, execution logs, reviews,
+  and measurable next experiments. It documents my preparation for
+  <strong>Post-training Research Engineer</strong> work.</p>
+
+  <p><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">Open MY_CAREER_PLANNER</a></p>
+</details>
+
+<details>
+  <summary><strong>Local-model direction · Current experiment track</strong></summary>
+
+  <p>Lease-Companion contains an optional 7B 4-bit QLoRA comparison track. The current
+  repository contains preprocessing, configuration, and evaluation scaffolding;
+  <strong>no trained weights or checkpoint are presented as completed results.</strong></p>
+</details>
 
 <a id="independent-work"></a>
-## <font color="#111827">Independent Work</font>
+## Independent Work
 
 <details>
   <summary><strong>Explore 8 supporting projects</strong></summary>
@@ -199,19 +151,14 @@
 
 </details>
 
-## <font color="#111827">Toolkit</font>
+## Toolkit
 
-<table width="100%" cellpadding="18" cellspacing="0">
-  <tr>
-    <td bgcolor="#0E1B27">
-      <font color="#A5F3FC"><sub>AI SYSTEMS · RESEARCH ENGINEERING · PRODUCT DELIVERY</sub></font><br /><br />
-      <code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> <code>Chroma</code> <code>BM25</code> <code>Gemini</code> <code>RAG</code> <code>QLoRA</code><br />
-      <code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> <code>Docker</code> <code>GitHub Actions</code>
-    </td>
-  </tr>
-</table>
+<p>
+  <code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> <code>Chroma</code> <code>BM25</code> <code>Gemini</code> <code>RAG</code> <code>QLoRA</code><br />
+  <code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> <code>Docker</code> <code>GitHub Actions</code>
+</p>
 
-## <font color="#111827">All Public Repositories</font>
+## All Public Repositories
 
 <details>
   <summary><strong>Explore all 23 public repositories</strong></summary>
@@ -253,12 +200,9 @@
 
 </details>
 
-<table width="100%" cellpadding="22" cellspacing="0">
-  <tr>
-    <td align="center" bgcolor="#090D18">
-      <font color="#C084FC"><sub>LET'S CONNECT</sub></font>
-      <h2><font color="#F8FAFC">Building toward more reliable AI</font></h2>
-      <a href="https://github.com/coding-jhj"><font color="#22D3EE">GitHub →</font></a>
-    </td>
-  </tr>
-</table>
+<hr />
+
+<p align="center">
+  <strong>Building toward more reliable AI</strong><br />
+  <a href="https://github.com/coding-jhj">GitHub →</a>
+</p>
