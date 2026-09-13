@@ -1,38 +1,34 @@
-<p align="center"><sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub></p>
-
-<h1 align="center">Jeong Hwan Ju</h1>
-
-<p align="center"><strong>Post-training Research Engineer</strong></p>
-
-<blockquote>
-  <p align="center">Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
-</blockquote>
-
-<p align="center"><sub>PROOF AT A GLANCE</sub></p>
-
-<table width="100%" cellpadding="12" cellspacing="0">
+<table width="100%" cellpadding="20" cellspacing="0">
   <tr>
-    <th align="center">03</th>
-    <th align="center">01</th>
-    <th align="center">08</th>
-  </tr>
-  <tr>
-    <td align="center"><sub>TEAM PROJECTS</sub></td>
-    <td align="center"><sub>AWARD-WINNING LEAD</sub></td>
-    <td align="center"><sub>INDEPENDENT WORKS</sub></td>
+    <td valign="middle" width="58%">
+      <p><sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub></p>
+      <h1>Jeong Hwan Ju</h1>
+      <p><strong>Post-training Research Engineer</strong></p>
+      <blockquote>
+        <p>Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
+      </blockquote>
+    </td>
+    <td valign="middle" width="42%" align="center">
+      <img src="./assets/profile-systems-banner.svg" alt="Abstract network connecting AI systems, evaluation, and deployment" width="300" />
+    </td>
   </tr>
 </table>
 
-<p align="center">
-  <code>01 · SELECTED WORK</code> ·
-  <code>02 · RESEARCH DIRECTION</code> ·
-  <code>03 · INDEPENDENT WORK</code> ·
-  <a href="https://github.com/coding-jhj"><code>GITHUB</code></a>
-</p>
+---
+
+## PROOF AT A GLANCE
+
+| 03 | 01 | 08 |
+| :---: | :---: | :---: |
+| **TEAM PROJECTS** | **AWARD-WINNING LEAD** | **INDEPENDENT WORKS** |
+
+<p align="center"><sub>01 · SELECTED WORK · 02 · RESEARCH DIRECTION · 03 · INDEPENDENT WORK · <a href="https://github.com/coding-jhj">GITHUB</a></sub></p>
+
+<p align="center"><sub>PROFILE SNAPSHOT</sub></p>
 
 | Direction | Recognition | Selected Work |
 | --- | --- | --- |
-| **Post-training Research Engineer**<br /><sub>Research engineering preparation</sub> | **Minister of Employment and Labor Award**<br /><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> · Team Lead, AI/LLM | **Lease-Companion**<br />VoiceGuide · Rainbow Bridge |
+| **Post-training Research Engineer**<br /><sub>Research engineering preparation</sub> | **Minister of Employment and Labor Award**<br /><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> · Team Lead, AI/LLM | **Lease-Companion**<br />**VoiceGuide · Team Lead** · Rainbow Bridge |
 
 ---
 
@@ -78,7 +74,7 @@
     </td>
     <td valign="top">
       <h3>On-device AI · <a href="https://github.com/coding-jhj/VoiceGuide">VoiceGuide</a></h3>
-      <strong>Walking assistant for blind and low-vision users</strong>
+      <strong>Team Lead · Walking assistant for blind and low-vision users</strong>
       <p>An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
       then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
       connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
