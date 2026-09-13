@@ -1,57 +1,41 @@
-<table width="100%" cellpadding="16" cellspacing="0">
-  <tr>
-    <td valign="top" width="68%">
-      <sub>AI SYSTEMS · EVALUATION · DEPLOYMENT</sub>
-      <h1>Jeong Hwan Ju</h1>
-      <p><strong>Post-training Research Engineer</strong></p>
-      <blockquote>
-        <p>Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</p>
-      </blockquote>
-    </td>
-    <td valign="top" width="32%">
-      <sub>PROOF AT A GLANCE</sub>
-      <p><strong>03</strong><br /><sub>TEAM PROJECTS</sub></p>
-      <p><strong>01</strong><br /><sub>AWARD-WINNING LEAD</sub></p>
-      <p><strong>08</strong><br /><sub>INDEPENDENT WORKS</sub></p>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cover.svg?v=2" />
+  <img src="./assets/profile-cover-light.svg?v=2" alt="Jeong Hwan Ju — Post-training Research Engineer. AI systems, evaluation, deployment." width="100%" />
+</picture>
+
+<p align="center">
+  <em>Building evaluation-driven AI systems with grounded generation, explicit safety boundaries, and deployment-aware engineering.</em>
+</p>
+
+<p align="center">
+  <strong>03</strong> Team Projects &nbsp;·&nbsp; <strong>01</strong> Award-winning Lead &nbsp;·&nbsp; <strong>08</strong> Independent Works
+</p>
 
 <p align="center">
   <a href="#selected-work">Selected Work</a> ·
   <a href="#research-direction">Research Direction</a> ·
   <a href="#independent-work">Independent Work</a> ·
-  <a href="https://github.com/coding-jhj">GitHub</a>
+  <a href="#toolkit">Toolkit</a>
 </p>
-
-<p>
-  <img src="./assets/selected-work-index.svg" alt="Selected work index: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
-</p>
-
-| Direction | Recognition | Selected Work |
-| --- | --- | --- |
-| **Post-training Research Engineer**<br /><sub>Research engineering preparation</sub> | **Minister of Employment and Labor Award**<br /><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> · Team Lead, AI/LLM | **Lease-Companion**<br />VoiceGuide · Rainbow Bridge |
 
 <a id="selected-work"></a>
 ## Selected Work
 
-<p>Three team projects first — each one shows a different way I turn AI systems into useful, testable products.</p>
+Three team projects first — each one shows a different way I turn AI systems into useful, testable products.
 
-<table width="100%" cellpadding="16" cellspacing="0">
+<table>
   <tr>
-    <td valign="top" width="22%" align="center">
+    <td width="170" align="center">
       <img src="./assets/lease-companion-thumb.png" alt="Neon contract document and magnifying glass illustration" width="150" />
     </td>
-    <td valign="top">
-      <h3>Recognition · <a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a></h3>
+    <td>
+      <sub>RECOGNITION · 🏆 MINISTER OF EMPLOYMENT AND LABOR AWARD</sub>
+      <h3><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a></h3>
       <strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong>
       <p>A contract review assistant for first-time tenants. It combines document extraction,
       cross-document validation, official-source retrieval, and a Python rule engine to provide
       evidence-backed questions and actions instead of unsafe legal or safety claims.</p>
-      <p>
-        <sub>STACK</sub><br />
-        <code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code>
-      </p>
+      <p><code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code></p>
       <p>
         <strong>Offline evidence:</strong>
         <code>Contract checks · 100/100</code> ·
@@ -64,44 +48,34 @@
       </p>
     </td>
   </tr>
-</table>
-
-<table width="100%" cellpadding="16" cellspacing="0">
   <tr>
-    <td valign="top" width="22%" align="center">
+    <td width="170" align="center">
       <img src="./assets/voiceguide-thumb.png" alt="Neon smartphone, microphone, and navigation path illustration" width="150" />
     </td>
-    <td valign="top">
-      <h3>On-device AI · <a href="https://github.com/coding-jhj/VoiceGuide">VoiceGuide</a></h3>
+    <td>
+      <sub>ON-DEVICE AI · ACCESSIBILITY</sub>
+      <h3><a href="https://github.com/coding-jhj/VoiceGuide">VoiceGuide</a></h3>
       <strong>Walking assistant for blind and low-vision users</strong>
       <p>An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
       then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
       connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
       to the server.</p>
-      <p>
-        <sub>STACK</sub><br />
-        <code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code>
-      </p>
+      <p><code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code></p>
       <p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
     </td>
   </tr>
-</table>
-
-<table width="100%" cellpadding="16" cellspacing="0">
   <tr>
-    <td valign="top" width="22%" align="center">
+    <td width="170" align="center">
       <img src="./assets/rainbow-bridge-thumb.png" alt="Neon GPU, server, and audio waveform infrastructure illustration" width="150" />
     </td>
-    <td valign="top">
-      <h3>AI Infrastructure · <a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Rainbow Bridge</a></h3>
+    <td>
+      <sub>AI INFRASTRUCTURE · CONTRIBUTION</sub>
+      <h3><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Rainbow Bridge</a></h3>
       <strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong>
       <p>Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
       STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
       PM2 operations, and the demo video generation pipeline.</p>
-      <p>
-        <sub>STACK</sub><br />
-        <code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code>
-      </p>
+      <p><code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code></p>
       <p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
     </td>
   </tr>
@@ -110,18 +84,29 @@
 <a id="research-direction"></a>
 ## Research Direction
 
-| Direction | Work | What it demonstrates |
-| --- | --- | --- |
-| **Foundation model lab** | **[foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab)** | Reproducible decoder-only language model experiments covering tokenizers, causal self-attention, compact Transformers, checkpoints, validation loss, generation, and experiment records. **This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.** |
-| **Execution workspace** | **[MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER)** | A Plan → Do → See workspace for research goals, execution logs, reviews, and measurable next experiments. It documents my preparation for **Post-training Research Engineer** work. |
-| **Local-model direction** | **Lease-Companion comparison track** | An optional 7B 4-bit QLoRA comparison track. The current repository contains preprocessing, configuration, and evaluation scaffolding; **no trained weights or checkpoint are presented as completed results.** |
+<sub>Post-training Research Engineer · research engineering preparation</sub>
+
+### 🧪 Foundation model lab — [foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab)
+Reproducible decoder-only language model experiments covering tokenizers, causal self-attention, compact Transformers, checkpoints, validation loss, generation, and experiment records.
+
+> [!NOTE]
+> This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.
+
+### 🗂️ Execution workspace — [MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER)
+A Plan → Do → See workspace for research goals, execution logs, reviews, and measurable next experiments. It documents my preparation for **Post-training Research Engineer** work.
+
+### 🔬 Local-model direction — Lease-Companion comparison track
+An optional 7B 4-bit QLoRA comparison track. The current repository contains preprocessing, configuration, and evaluation scaffolding.
+
+> [!NOTE]
+> No trained weights or checkpoint are presented as completed results.
 
 <a id="independent-work"></a>
 ## Independent Work
 
-<p>Independent work is not a list of ideas. It is a record of implementing analysis, search, security, operations, and failure handling.</p>
+Independent work is not a list of ideas. It is a record of implementing analysis, search, security, operations, and failure handling.
 
-<table width="100%" cellpadding="14" cellspacing="8">
+<table>
   <tr>
     <td valign="top" width="50%">
       <sub>CODE ANALYSIS · AGENT</sub>
@@ -194,11 +179,15 @@
   </tr>
 </table>
 
+<a id="toolkit"></a>
 ## Toolkit
 
-<sub>TOOLS</sub><br />
-<code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> <code>Chroma</code> <code>BM25</code> <code>Gemini</code> <code>RAG</code> <code>QLoRA</code><br />
-<code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> <code>Docker</code> <code>GitHub Actions</code>
+| Area | Tools |
+| --- | --- |
+| **LLM / Retrieval** | <code>Gemini</code> <code>RAG</code> <code>QLoRA</code> <code>Chroma</code> <code>BM25</code> |
+| **Backend / Data** | <code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> |
+| **Mobile / Frontend** | <code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> |
+| **Infra** | <code>Docker</code> <code>GitHub Actions</code> |
 
 ## All Public Repositories
 

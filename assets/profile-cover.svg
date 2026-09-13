@@ -45,8 +45,6 @@
     <text x="52" y="48" fill="#A5B4FC" font-size="12" font-weight="700" letter-spacing="3.8">CODING-JHJ / AI ENGINEERING</text>
     <text x="52" y="128" fill="#F8FAFC" font-size="66" font-weight="900" letter-spacing="-2.8">JEONG HWAN JU</text>
     <text x="52" y="177" fill="url(#title)" font-size="31" font-weight="900" letter-spacing="1.2">POST-TRAINING RESEARCH ENGINEER</text>
-    <text x="52" y="217" fill="#CBD5E1" font-size="14" font-weight="700" letter-spacing="3.4">EVALUATION  /  GROUNDING  /  DEPLOYMENT</text>
-    <text x="1084" y="242" fill="#A5F3FC" font-size="12" font-weight="800" letter-spacing="2.8" transform="rotate(-90 1084 242)">SELECTED WORK</text>
-    <text x="1128" y="242" fill="#FDA4AF" font-size="12" font-weight="800" letter-spacing="2.8" transform="rotate(-90 1128 242)">RESEARCH DIRECTION</text>
+    <text x="52" y="217" fill="#CBD5E1" font-size="14" font-weight="700" letter-spacing="3.4">AI SYSTEMS  ·  EVALUATION  ·  DEPLOYMENT</text>
   </g>
 </svg>
