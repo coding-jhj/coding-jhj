@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="./assets/profile-header-minimal.svg" alt="Minimal research engineering header" width="100%" />
+  <img src="./assets/profile-cover.svg" alt="Editorial cover for an AI systems and research engineering portfolio" width="100%" />
 </p>
 
 # Jeong Hwan Ju
@@ -16,92 +16,152 @@ explicit safety boundaries, and deployment-aware engineering.
   <a href="https://github.com/coding-jhj">GitHub</a>
 </p>
 
-> **Recognition**
->
-> **Minister of Employment and Labor Award (Encouragement Award)**<br />
-> [Lease-Companion](https://github.com/coding-jhj/Lease-Companion) | **Team Lead, AI/LLM**
+<table>
+  <tr>
+    <td valign="top" width="33%" bgcolor="#FFF1E8">
+      <sub>DIRECTION</sub><br />
+      <strong>Post-training Research Engineer</strong><br />
+      <sub>Research engineering preparation</sub>
+    </td>
+    <td valign="top" width="34%" bgcolor="#EEF4FF">
+      <sub>RECOGNITION</sub><br />
+      <strong>Minister of Employment and Labor Award</strong><br />
+      <a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a> | Team Lead, AI/LLM
+    </td>
+    <td valign="top" width="33%" bgcolor="#F1EEFF">
+      <sub>SELECTED WORK</sub><br />
+      <strong>Lease-Companion</strong><br />
+      VoiceGuide · Rainbow-Bridge
+    </td>
+  </tr>
+</table>
 
 ## Selected Work
 
+<p>
+  <img src="./assets/selected-work-index.svg" alt="Selected work index: Lease-Companion, VoiceGuide, and Rainbow-Bridge" width="100%" />
+</p>
+
 ### 01 / Recognition | [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
 
-<p><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></p>
-
-A contract review assistant for first-time tenants. It combines document extraction,
-cross-document validation, official-source retrieval, and a Python rule engine to provide
-evidence-backed questions and actions instead of unsafe legal or safety claims.
-
-<p>
-  <sub>STACK</sub><br />
-  <code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code>
-</p>
-
-> <strong>Offline evidence:</strong> <code>R01-R10: 100/100</code> | <code>J01-J13: 51/51</code><br />
-> Fixed synthetic goldset regression results, not a claim about every real contract.
-
-<p>
-  <a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> |
-  <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a>
-</p>
+<table>
+  <tr>
+    <td valign="top" width="16%" bgcolor="#FFF1E8">
+      <strong>01</strong><br />
+      <sub>AWARD<br />TEAM LEAD</sub>
+    </td>
+    <td valign="top" bgcolor="#FFFCF8">
+      <strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong>
+      <p>A contract review assistant for first-time tenants. It combines document extraction,
+      cross-document validation, official-source retrieval, and a Python rule engine to provide
+      evidence-backed questions and actions instead of unsafe legal or safety claims.</p>
+      <p>
+        <sub>STACK</sub><br />
+        <code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code>
+      </p>
+      <p><strong>Offline evidence:</strong> <code>R01-R10: 100/100</code> | <code>J01-J13: 51/51</code><br />
+      <sub>Fixed synthetic goldset regression results, not a claim about every real contract.</sub></p>
+      <p><a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> |
+      <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a></p>
+    </td>
+  </tr>
+</table>
 
 <hr />
 
 ### 02 / On-device AI | [VoiceGuide](https://github.com/coding-jhj/VoiceGuide)
 
-<p><strong>Walking assistant for blind and low-vision users</strong></p>
-
-An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
-then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
-connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
-to the server.
-
-<p>
-  <sub>STACK</sub><br />
-  <code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code>
-</p>
-
-<p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
+<table>
+  <tr>
+    <td valign="top" width="16%" bgcolor="#EEF4FF">
+      <strong>02</strong><br />
+      <sub>ON-DEVICE<br />ACCESSIBILITY</sub>
+    </td>
+    <td valign="top" bgcolor="#F8FBFF">
+      <strong>Walking assistant for blind and low-vision users</strong>
+      <p>An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
+      then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
+      connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
+      to the server.</p>
+      <p>
+        <sub>STACK</sub><br />
+        <code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code>
+      </p>
+      <p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
+    </td>
+  </tr>
+</table>
 
 <hr />
 
 ### 03 / AI Infrastructure | [Rainbow-Bridge](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
 
-<p><strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong></p>
-
-Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
-STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
-PM2 operations, and the demo video generation pipeline.
-
-<p>
-  <sub>STACK</sub><br />
-  <code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code>
-</p>
-
-<p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
+<table>
+  <tr>
+    <td valign="top" width="16%" bgcolor="#F1EEFF">
+      <strong>03</strong><br />
+      <sub>AI INFRASTRUCTURE<br />CONTRIBUTOR</sub>
+    </td>
+    <td valign="top" bgcolor="#FBFAFF">
+      <strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong>
+      <p>Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
+      STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
+      PM2 operations, and the demo video generation pipeline.</p>
+      <p>
+        <sub>STACK</sub><br />
+        <code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code>
+      </p>
+      <p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
+    </td>
+  </tr>
+</table>
 
 ## Research Direction
 
-### [foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab)
-
-Reproducible decoder-only language model experiments covering tokenizers,
-causal self-attention, compact Transformers, checkpoints, validation loss,
-generation, and experiment records.
-
-<p><strong>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</strong></p>
-
-### [MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER)
-
-A Plan -> Do -> See workspace for research goals, execution logs, reviews,
-and measurable next experiments. It documents my preparation for
-<strong>Post-training Research Engineer</strong> work.
-
-### Local-model direction
-
-Lease-Companion contains an optional 7B 4-bit QLoRA comparison track. The current
-repository contains preprocessing, configuration, and evaluation scaffolding;
-<strong>no trained weights or checkpoint are presented as completed results.</strong>
+<table>
+  <tr>
+    <td valign="top" width="16%" bgcolor="#E8F1EE">
+      <strong>01</strong><br />
+      <sub>FOUNDATION<br />MODEL LAB</sub>
+    </td>
+    <td valign="top" bgcolor="#F8FCFA">
+      <strong><a href="https://github.com/coding-jhj/foundation-model-lab">foundation-model-lab</a></strong>
+      <p>Reproducible decoder-only language model experiments covering tokenizers,
+      causal self-attention, compact Transformers, checkpoints, validation loss,
+      generation, and experiment records.</p>
+      <p><strong>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFF6DF">
+      <strong>02</strong><br />
+      <sub>EXECUTION<br />WORKSPACE</sub>
+    </td>
+    <td valign="top" bgcolor="#FFFCF4">
+      <strong><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">MY_CAREER_PLANNER</a></strong>
+      <p>A Plan -> Do -> See workspace for research goals, execution logs, reviews,
+      and measurable next experiments. It documents my preparation for
+      <strong>Post-training Research Engineer</strong> work.</p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#F2F0FF">
+      <strong>03</strong><br />
+      <sub>LOCAL MODEL<br />DIRECTION</sub>
+    </td>
+    <td valign="top" bgcolor="#FBFAFF">
+      <strong>Local-model direction</strong>
+      <p>Lease-Companion contains an optional 7B 4-bit QLoRA comparison track. The current
+      repository contains preprocessing, configuration, and evaluation scaffolding;
+      <strong>no trained weights or checkpoint are presented as completed results.</strong></p>
+    </td>
+  </tr>
+</table>
 
 ## Independent Work
+
+<details>
+  <summary><strong>Explore 8 supporting projects</strong></summary>
 
 - **[RepoPilot](https://github.com/coding-jhj/RepoPilot)**: evidence-grounded repository analysis agent producing file-and-line findings, static-analysis results, and patch drafts. [Demo](https://jeonghwanju-repopilot.hf.space/) | [Code Guide](https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html)
 - **[Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio)**: source-grounded personal AI workspace with citation cards and local retrieval fallback. [Demo](https://jeonghwanju-personal-ai-studio.hf.space)
@@ -112,10 +172,13 @@ repository contains preprocessing, configuration, and evaluation scaffolding;
 - **[ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK) / [MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD)**: reliability-focused information dashboard with stale-data handling and replay fixtures.
 - **[ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE)**: playable single-file browser RPG. [Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/)
 
+</details>
+
 ## Toolkit
 
-Python · FastAPI · Pydantic · PostgreSQL · Chroma · BM25 · Gemini · RAG · QLoRA<br />
-Kotlin · Android · TFLite · React · TypeScript · Docker · GitHub Actions
+<sub>TOOLS</sub><br />
+`Python` `FastAPI` `Pydantic` `PostgreSQL` `Chroma` `BM25` `Gemini` `RAG` `QLoRA`<br />
+`Kotlin` `Android` `TFLite` `React` `TypeScript` `Docker` `GitHub Actions`
 
 ## All Public Repositories
 

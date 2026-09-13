@@ -1,0 +1,25 @@
+<svg width="1200" height="112" viewBox="0 0 1200 112" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected work index</title>
+  <desc id="desc">Three numbered work sections: Lease-Companion recognition, VoiceGuide on-device AI, and Rainbow-Bridge AI infrastructure.</desc>
+
+  <rect width="1200" height="112" rx="14" fill="#F4EFE6" />
+  <rect width="400" height="112" rx="14" fill="#F06445" />
+  <rect x="400" width="400" height="112" fill="#3155B5" />
+  <rect x="800" width="400" height="112" rx="14" fill="#111827" />
+  <rect x="388" width="12" height="112" fill="#F4EFE6" />
+  <rect x="788" width="12" height="112" fill="#F4EFE6" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="34" y="34" fill="#111827" font-size="12" font-weight="800" letter-spacing="2.8">01 / RECOGNITION</text>
+    <text x="34" y="70" fill="#111827" font-size="22" font-weight="900">LEASE-COMPANION</text>
+    <text x="34" y="92" fill="#111827" font-size="12" font-weight="700" letter-spacing="1.8">TEAM LEAD · AI/LLM</text>
+
+    <text x="434" y="34" fill="#F8FAFC" font-size="12" font-weight="800" letter-spacing="2.8">02 / ON-DEVICE AI</text>
+    <text x="434" y="70" fill="#F8FAFC" font-size="22" font-weight="900">VOICEGUIDE</text>
+    <text x="434" y="92" fill="#E0EAFF" font-size="12" font-weight="700" letter-spacing="1.8">ACCESSIBILITY · PRIVACY</text>
+
+    <text x="834" y="34" fill="#FBBF24" font-size="12" font-weight="800" letter-spacing="2.8">03 / AI INFRASTRUCTURE</text>
+    <text x="834" y="70" fill="#F8FAFC" font-size="22" font-weight="900">RAINBOW-BRIDGE</text>
+    <text x="834" y="92" fill="#CBD5E1" font-size="12" font-weight="700" letter-spacing="1.8">CONTRIBUTION BRANCH</text>
+  </g>
+</svg>

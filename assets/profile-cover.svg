@@ -1,0 +1,26 @@
+<svg width="1200" height="196" viewBox="0 0 1200 196" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial AI systems and research engineering cover</title>
+  <desc id="desc">A light editorial portfolio cover with a bold AI mark, research engineering labels, and a structured grid.</desc>
+
+  <rect width="1200" height="196" rx="18" fill="#F4EFE6" />
+  <rect width="342" height="196" rx="18" fill="#111827" />
+  <rect x="322" width="20" height="196" fill="#F06445" />
+  <rect x="342" width="4" height="196" fill="#3155B5" />
+
+  <path d="M742 0H1200V196H1014L742 0Z" fill="#DCE6FF" />
+  <path d="M866 0H1200V196H1068L866 0Z" fill="#3155B5" />
+  <path d="M1038 0H1200V196H1132L1038 0Z" fill="#F06445" />
+  <path d="M744 20H1174M744 48H1174M744 76H1174M744 104H1174M744 132H1174M744 160H1174" stroke="#111827" stroke-opacity="0.12" />
+  <path d="M790 0V196M838 0V196M886 0V196M934 0V196M982 0V196M1030 0V196M1078 0V196M1126 0V196M1174 0V196" stroke="#111827" stroke-opacity="0.12" />
+
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="48" y="44" fill="#CBD5E1" font-size="12" font-weight="700" letter-spacing="3.4">CODING-JHJ / AI ENGINEERING</text>
+    <text x="44" y="139" fill="#F8FAFC" font-size="108" font-weight="900" letter-spacing="-8">AI</text>
+    <text x="390" y="48" fill="#111827" font-size="13" font-weight="800" letter-spacing="3.6">POST-TRAINING</text>
+    <text x="390" y="82" fill="#111827" font-size="27" font-weight="800" letter-spacing="0.8">RESEARCH ENGINEERING</text>
+    <rect x="390" y="105" width="272" height="2" fill="#F06445" />
+    <text x="390" y="137" fill="#111827" font-size="14" font-weight="700" letter-spacing="2.8">EVALUATION / GROUNDING</text>
+    <text x="390" y="163" fill="#111827" font-size="14" font-weight="700" letter-spacing="2.8">DEPLOYMENT / REAL CONSTRAINTS</text>
+    <text x="1140" y="178" fill="#F4EFE6" font-size="12" font-weight="800" letter-spacing="2.4" transform="rotate(-90 1140 178)">01—03 / SELECTED WORK</text>
+  </g>
+</svg>
