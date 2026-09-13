@@ -2,32 +2,13 @@
   <img src="./assets/profile-cover.svg" alt="Jeong Hwan Ju — post-training research engineering portfolio" width="100%" />
 </div>
 
-<h1 align="center">JEONG HWAN JU</h1>
-
-<p align="center">
-  <strong>Post-training Research Engineer</strong><br />
-  I build evaluation-driven AI systems with grounded generation,<br />
-  explicit safety boundaries, and deployment-aware engineering.
-</p>
-
 <p align="center">
   <a href="#selected-work">Selected Work</a> ·
   <a href="#research-direction">Research Direction</a> ·
-  <a href="#independent-work">Independent Work</a> ·
-  <a href="https://github.com/coding-jhj">GitHub</a>
-</p>
-
-<hr />
-
-<p align="center">
-  <img src="./assets/selected-work-index.svg" alt="Selected work: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
+  <a href="#more-work">More Work</a>
 </p>
 
 <a id="selected-work"></a>
-## Selected Work
-
-<p>Three team projects first — each one shows a different way I turn AI systems into useful, testable products.</p>
-
 <p>
   <img src="./assets/selected-work-neon.png" alt="Neon project cards in order: Lease-Companion, VoiceGuide, and Rainbow Bridge" width="100%" />
 </p>
@@ -38,15 +19,10 @@
   <a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Rainbow Bridge contribution branch</a>
 </p>
 
-<p align="center">
-  <strong>Offline evidence:</strong>
-  <code>Contract checks · 100/100</code> ·
-  <code>Judgment cases · 47/47</code><br />
-  <sub>Fixed offline test data; not real-world contract coverage.</sub>
-</p>
-
 <details>
-  <summary><strong>Lease-Companion · Team Lead, AI/LLM</strong></summary>
+  <summary><strong>Project details and evidence</strong></summary>
+
+  <h3>Lease-Companion · Team Lead, AI/LLM</h3>
 
   <p><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></p>
 
@@ -54,16 +30,17 @@
   cross-document validation, official-source retrieval, and a Python rule engine to provide
   evidence-backed questions and actions instead of unsafe legal or safety claims.</p>
 
+  <p><strong>Offline evidence:</strong> <code>Contract checks · 100/100</code> · <code>Judgment cases · 47/47</code><br />
+  <sub>Fixed offline test data; not real-world contract coverage.</sub></p>
+
   <p><code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code></p>
 
   <p>
     <a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> ·
     <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a>
   </p>
-</details>
 
-<details>
-  <summary><strong>VoiceGuide · On-device AI and accessibility</strong></summary>
+  <h3>VoiceGuide · On-device AI and accessibility</h3>
 
   <p><strong>Walking assistant for blind and low-vision users</strong></p>
 
@@ -75,10 +52,8 @@
   <p><code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code></p>
 
   <p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
-</details>
 
-<details>
-  <summary><strong>Rainbow Bridge · AI infrastructure contributor</strong></summary>
+  <h3>Rainbow Bridge · AI infrastructure contributor</h3>
 
   <p><strong>Contribution branch: <code>jeonghwanju</code></strong></p>
 
@@ -89,23 +64,27 @@
   <p><code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code></p>
 
   <p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
+
 </details>
 
 <a id="research-direction"></a>
-## Research Direction
-
 <p>
-  <img src="./assets/research-direction-neon.png" alt="Neon research direction panel for post-training research engineering, model feedback, reward modeling, evaluation, toolkit, and GitHub contact" width="100%" />
+  <img src="./assets/research-direction-neon.png" alt="Neon research direction panel for post-training research engineering, preference data, reward modeling, evaluation, toolkit, and GitHub contact" width="100%" />
 </p>
 
 <p align="center">
-  <strong>Post-training Research Engineer</strong><br />
-  Building the research engineering foundation needed to make model behavior measurable,
-  reproducible, and useful in real products.
+  <a href="https://github.com/coding-jhj"><strong>Open GitHub profile →</strong></a>
 </p>
 
 <details>
-  <summary><strong>foundation-model-lab · Reproducible model experiments</strong></summary>
+  <summary><strong>Research direction details</strong></summary>
+
+  <h3>Post-training Research Engineer</h3>
+
+  <p>Building the research engineering foundation needed to make model behavior measurable,
+  reproducible, and useful in real products.</p>
+
+  <h3><a href="https://github.com/coding-jhj/foundation-model-lab">foundation-model-lab</a></h3>
 
   <p>Reproducible decoder-only language model experiments covering tokenizers,
   causal self-attention, compact Transformers, checkpoints, validation loss,
@@ -113,96 +92,87 @@
 
   <p><strong>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</strong></p>
 
-  <p><a href="https://github.com/coding-jhj/foundation-model-lab">Open foundation-model-lab</a></p>
-</details>
-
-<details>
-  <summary><strong>MY_CAREER_PLANNER · Execution workspace</strong></summary>
+  <h3><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">MY_CAREER_PLANNER</a></h3>
 
   <p>A Plan → Do → See workspace for research goals, execution logs, reviews,
   and measurable next experiments. It documents my preparation for
   <strong>Post-training Research Engineer</strong> work.</p>
 
-  <p><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">Open MY_CAREER_PLANNER</a></p>
-</details>
-
-<details>
-  <summary><strong>Local-model direction · Current experiment track</strong></summary>
+  <h3>Local-model direction</h3>
 
   <p>Lease-Companion contains an optional 7B 4-bit QLoRA comparison track. The current
   repository contains preprocessing, configuration, and evaluation scaffolding;
   <strong>no trained weights or checkpoint are presented as completed results.</strong></p>
+
 </details>
 
-<a id="independent-work"></a>
-## Independent Work
-
+<a id="more-work"></a>
 <details>
-  <summary><strong>Explore 8 supporting projects</strong></summary>
+  <summary><strong>More work, toolkit, and all public repositories</strong></summary>
 
-- **[RepoPilot](https://github.com/coding-jhj/RepoPilot)**: evidence-grounded repository analysis agent producing file-and-line findings, static-analysis results, and patch drafts. [Demo](https://jeonghwanju-repopilot.hf.space/) | [Code Guide](https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html)
-- **[Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio)**: source-grounded personal AI workspace with citation cards and local retrieval fallback. [Demo](https://jeonghwanju-personal-ai-studio.hf.space)
-- **[AI_AGENT](https://github.com/coding-jhj/AI_AGENT)**: ReAct web-search agent using Gemini, LangChain, DuckDuckGo, FastAPI, and Hugging Face Spaces. [Demo](https://jeonghwanju-ai-search-agent.hf.space)
-- **[Stelive_data](https://github.com/coding-jhj/Stelive_data)**: automated YouTube and CHZZK data pipeline with scheduled collection and a GitHub Pages dashboard. [Dashboard](https://coding-jhj.github.io/Stelive_data/)
-- **[claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit)**: MIT-licensed Claude Code harness for Windows and PowerShell with safety hooks, skill routing, regression tests, and subagent templates.
-- **[aleph-first-homework](https://github.com/coding-jhj/aleph-first-homework)**: Passkey-based private portfolio using WebAuthn and Supabase PostgreSQL.
-- **[ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK) / [MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD)**: reliability-focused information dashboard with stale-data handling and replay fixtures.
-- **[ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE)**: playable single-file browser RPG. [Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/)
+  <h2>Toolkit</h2>
+
+  <p>
+    <code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> <code>Chroma</code> <code>BM25</code> <code>Gemini</code> <code>RAG</code> <code>QLoRA</code><br />
+    <code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> <code>Docker</code> <code>GitHub Actions</code>
+  </p>
+
+  <h2>Independent Work</h2>
+
+  <ul>
+    <li><strong><a href="https://github.com/coding-jhj/RepoPilot">RepoPilot</a></strong>: evidence-grounded repository analysis agent producing file-and-line findings, static-analysis results, and patch drafts. <a href="https://jeonghwanju-repopilot.hf.space/">Demo</a> · <a href="https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html">Code Guide</a></li>
+    <li><strong><a href="https://github.com/coding-jhj/Personal-AI-Studio">Personal-AI-Studio</a></strong>: source-grounded personal AI workspace with citation cards and local retrieval fallback. <a href="https://jeonghwanju-personal-ai-studio.hf.space">Demo</a></li>
+    <li><strong><a href="https://github.com/coding-jhj/AI_AGENT">AI_AGENT</a></strong>: ReAct web-search agent using Gemini, LangChain, DuckDuckGo, FastAPI, and Hugging Face Spaces. <a href="https://jeonghwanju-ai-search-agent.hf.space">Demo</a></li>
+    <li><strong><a href="https://github.com/coding-jhj/Stelive_data">Stelive_data</a></strong>: automated YouTube and CHZZK data pipeline with scheduled collection and a GitHub Pages dashboard. <a href="https://coding-jhj.github.io/Stelive_data/">Dashboard</a></li>
+    <li><strong><a href="https://github.com/coding-jhj/claude-pwsh-kit">claude-pwsh-kit</a></strong>: MIT-licensed Claude Code harness for Windows and PowerShell with safety hooks, skill routing, regression tests, and subagent templates.</li>
+    <li><strong><a href="https://github.com/coding-jhj/aleph-first-homework">aleph-first-homework</a></strong>: Passkey-based private portfolio using WebAuthn and Supabase PostgreSQL.</li>
+    <li><strong><a href="https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK">ALPEH_FIFTH_HOMEWORK</a> / <a href="https://github.com/coding-jhj/MINECRART_DASHBOARD">MINECRART_DASHBOARD</a></strong>: reliability-focused information dashboard with stale-data handling and replay fixtures.</li>
+    <li><strong><a href="https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE">ARKAN_FORGOTTEN_THRONE</a></strong>: playable single-file browser RPG. <a href="https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/">Play</a></li>
+  </ul>
+
+  <h2>All Public Repositories</h2>
+
+  <h3>Profile and research</h3>
+
+  <ul>
+    <li><a href="https://github.com/coding-jhj">coding-jhj</a>: profile README and portfolio hub</li>
+    <li><a href="https://github.com/coding-jhj/foundation-model-lab">foundation-model-lab</a>: language-model research lab</li>
+    <li><a href="https://github.com/coding-jhj/Lease-Companion">Lease-Companion</a>: contract analysis assistant</li>
+    <li><a href="https://github.com/coding-jhj/MY_CAREER_PLANNER">MY_CAREER_PLANNER</a>: research engineering workflow</li>
+    <li><a href="https://github.com/coding-jhj/RepoPilot">RepoPilot</a>: repository analysis agent</li>
+    <li><a href="https://github.com/coding-jhj/AI_AGENT">AI_AGENT</a>: ReAct search agent</li>
+    <li><a href="https://github.com/coding-jhj/Personal-AI-Studio">Personal-AI-Studio</a>: source-grounded AI workspace</li>
+  </ul>
+
+  <h3>Data, product, and engineering</h3>
+
+  <ul>
+    <li><a href="https://github.com/coding-jhj/VoiceGuide">VoiceGuide</a>: on-device accessibility AI</li>
+    <li><a href="https://github.com/coding-jhj/Stelive_data">Stelive_data</a>: automated data dashboard</li>
+    <li><a href="https://github.com/coding-jhj/MINECRART_DASHBOARD">MINECRART_DASHBOARD</a>: reliability-focused dashboard</li>
+    <li><a href="https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK">ALPEH_FIFTH_HOMEWORK</a>: fixture-driven data product</li>
+    <li><a href="https://github.com/coding-jhj/claude-pwsh-kit">claude-pwsh-kit</a>: PowerShell AI development harness</li>
+    <li><a href="https://github.com/coding-jhj/aleph-first-homework">aleph-first-homework</a>: Passkey portfolio</li>
+  </ul>
+
+  <h3>Learning, creative work, and coursework</h3>
+
+  <ul>
+    <li><a href="https://github.com/coding-jhj/SKT_ALEPH_STUDY_NOTE">SKT_ALEPH_STUDY_NOTE</a>: infrastructure and systems study notes</li>
+    <li><a href="https://github.com/coding-jhj/Review-Estcamp-AI-Human">Review-Estcamp-AI-Human</a>: interactive AI textbook</li>
+    <li><a href="https://github.com/coding-jhj/AI-Career-OS">AI-Career-OS</a>: early career operating system</li>
+    <li><a href="https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE">ARKAN_FORGOTTEN_THRONE</a>: browser RPG</li>
+    <li><a href="https://github.com/coding-jhj/aleph-ninth-homework">aleph-ninth-homework</a>: web coursework</li>
+    <li><a href="https://github.com/coding-jhj/aleph-third-homework">aleph-third-homework</a>: web coursework</li>
+    <li><a href="https://github.com/coding-jhj/alpeh-second-mini-game">alpeh-second-mini-game</a>: browser game coursework</li>
+    <li><a href="https://github.com/coding-jhj/ALEPH_FIRST_HOMEWORK">ALEPH_FIRST_HOMEWORK</a>: web coursework</li>
+  </ul>
+
+  <h3>Archived practice</h3>
+
+  <ul>
+    <li><a href="https://github.com/coding-jhj/Remote-Git-Practice">Remote-Git-Practice</a>: Git practice record</li>
+    <li><a href="https://github.com/coding-jhj/weekdays_vacation_python">weekdays_vacation_python</a>: Python learning record</li>
+  </ul>
 
 </details>
-
-## Toolkit
-
-<p>
-  <code>Python</code> <code>FastAPI</code> <code>Pydantic</code> <code>PostgreSQL</code> <code>Chroma</code> <code>BM25</code> <code>Gemini</code> <code>RAG</code> <code>QLoRA</code><br />
-  <code>Kotlin</code> <code>Android</code> <code>TFLite</code> <code>React</code> <code>TypeScript</code> <code>Docker</code> <code>GitHub Actions</code>
-</p>
-
-## All Public Repositories
-
-<details>
-  <summary><strong>Explore all 23 public repositories</strong></summary>
-
-### Profile and research
-
-- [coding-jhj](https://github.com/coding-jhj): profile README and portfolio hub
-- [foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab): language-model research lab
-- [Lease-Companion](https://github.com/coding-jhj/Lease-Companion): contract analysis assistant
-- [MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER): research engineering workflow
-- [RepoPilot](https://github.com/coding-jhj/RepoPilot): repository analysis agent
-- [AI_AGENT](https://github.com/coding-jhj/AI_AGENT): ReAct search agent
-- [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio): source-grounded AI workspace
-
-### Data, product, and engineering
-
-- [VoiceGuide](https://github.com/coding-jhj/VoiceGuide): on-device accessibility AI
-- [Stelive_data](https://github.com/coding-jhj/Stelive_data): automated data dashboard
-- [MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD): reliability-focused dashboard
-- [ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK): fixture-driven data product
-- [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit): PowerShell AI development harness
-- [aleph-first-homework](https://github.com/coding-jhj/aleph-first-homework): Passkey portfolio
-
-### Learning, creative work, and coursework
-
-- [SKT_ALEPH_STUDY_NOTE](https://github.com/coding-jhj/SKT_ALEPH_STUDY_NOTE): infrastructure and systems study notes
-- [Review-Estcamp-AI-Human](https://github.com/coding-jhj/Review-Estcamp-AI-Human): interactive AI textbook
-- [AI-Career-OS](https://github.com/coding-jhj/AI-Career-OS): early career operating system
-- [ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE): browser RPG
-- [aleph-ninth-homework](https://github.com/coding-jhj/aleph-ninth-homework): web coursework
-- [aleph-third-homework](https://github.com/coding-jhj/aleph-third-homework): web coursework
-- [alpeh-second-mini-game](https://github.com/coding-jhj/alpeh-second-mini-game): browser game coursework
-- [ALEPH_FIRST_HOMEWORK](https://github.com/coding-jhj/ALEPH_FIRST_HOMEWORK): web coursework
-
-### Archived practice
-
-- [Remote-Git-Practice](https://github.com/coding-jhj/Remote-Git-Practice): Git practice record
-- [weekdays_vacation_python](https://github.com/coding-jhj/weekdays_vacation_python): Python learning record
-
-</details>
-
-<hr />
-
-<p align="center">
-  <strong>Building toward more reliable AI</strong><br />
-  <a href="https://github.com/coding-jhj">GitHub →</a>
-</p>
