@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cover.svg?v=2" />
-  <img src="./assets/profile-cover-light.svg?v=2" alt="Jeong Hwan Ju — Post-training Research Engineer. AI systems, evaluation, deployment." width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-cover.svg?v=3" />
+  <img src="./assets/profile-cover-light.svg?v=3" alt="Jeong Hwan Ju — Post-training Research Engineer" width="100%" />
 </picture>
 
 <p align="center">
