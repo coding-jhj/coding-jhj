@@ -1,4 +1,4 @@
-AI SYSTEMS · EVALUATION · DEPLOYMENT
+**AI SYSTEMS · EVALUATION · DEPLOYMENT**
 
 # Jeong Hwan Ju
 
@@ -8,28 +8,25 @@ AI SYSTEMS · EVALUATION · DEPLOYMENT
 
 ---
 
-**PROOF AT A GLANCE**
+### PROOF AT A GLANCE
 
 | **03** | **01** | **08** |
 | --- | --- | --- |
 | TEAM PROJECTS | AWARD-WINNING LEAD | INDEPENDENT WORKS |
 
+**INDEX**
+
 [Selected Work](#selected-work) · [Research Direction](#research-direction) · [Independent Work](#independent-work) · [GitHub](https://github.com/coding-jhj)
 
-## Profile Snapshot
+### PROFILE SNAPSHOT
 
-> **Direction**  
-> **Post-training Research Engineer** · Research engineering preparation
->
-> **Recognition**  
-> **Minister of Employment and Labor Award** · [Lease-Companion](https://github.com/coding-jhj/Lease-Companion) · Team Lead, AI/LLM
->
-> **Selected Work**  
-> **Lease-Companion** · VoiceGuide · Rainbow Bridge
+| Direction | Recognition | Selected Work |
+| --- | --- | --- |
+| **Post-training Research Engineer**<br>Research engineering preparation | **Minister of Employment and Labor Award**<br>[Lease-Companion](https://github.com/coding-jhj/Lease-Companion) · Team Lead, AI/LLM | **Lease-Companion**<br>VoiceGuide · Rainbow Bridge |
 
 ## Selected Work
 
-Three team projects first — each one shows a different way I turn AI systems into useful, testable products.
+> Three team projects first — each one shows a different way I turn AI systems into useful, testable products.
 
 ### 01 / Recognition · [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
 
@@ -39,13 +36,12 @@ A contract review assistant for first-time tenants. It combines document extract
 
 **STACK**
 
-`Document AI` · `Rule Engine` · `RAG` · `Privacy` · `Evaluation`
+<kbd>Document AI</kbd> <kbd>Rule Engine</kbd> <kbd>RAG</kbd> <kbd>Privacy</kbd> <kbd>Evaluation</kbd>
 
-**Offline evidence:** `Contract checks · 100/100` · `Judgment cases · 47/47`
-
+> **Offline evidence:** `Contract checks · 100/100` · `Judgment cases · 47/47`  
 > Fixed offline test data; not real-world contract coverage.
 
-[Repository](https://github.com/coding-jhj/Lease-Companion) · [Evaluation Plan](https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md)
+↳ [Repository](https://github.com/coding-jhj/Lease-Companion) · [Evaluation Plan](https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md)
 
 ---
 
@@ -57,9 +53,9 @@ An Android system that runs YOLO/TFLite obstacle detection on device camera fram
 
 **STACK**
 
-`Android` · `Kotlin` · `TFLite` · `YOLO` · `FastAPI` · `Accessibility`
+<kbd>Android</kbd> <kbd>Kotlin</kbd> <kbd>TFLite</kbd> <kbd>YOLO</kbd> <kbd>FastAPI</kbd> <kbd>Accessibility</kbd>
 
-[Repository](https://github.com/coding-jhj/VoiceGuide)
+↳ [Repository](https://github.com/coding-jhj/VoiceGuide)
 
 ---
 
@@ -71,9 +67,9 @@ Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping, STT/Gemi
 
 **STACK**
 
-`Qwen3 TTS` · `GPU Service` · `Evaluation` · `PM2` · `Backend`
+<kbd>Qwen3 TTS</kbd> <kbd>GPU Service</kbd> <kbd>Evaluation</kbd> <kbd>PM2</kbd> <kbd>Backend</kbd>
 
-[Contribution Branch](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
+↳ [Contribution Branch](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
 
 ## Research Direction
 
@@ -101,7 +97,7 @@ Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping, STT/Gemi
 
 ## Independent Work
 
-Independent work is not a list of ideas. It is a record of implementing analysis, search, security, operations, and failure handling.
+> Independent work is not a list of ideas. It is a record of implementing analysis, search, security, operations, and failure handling.
 
 **CODE ANALYSIS · AGENT**
 
@@ -111,9 +107,11 @@ Independent work is not a list of ideas. It is a record of implementing analysis
 
 Accepts a public GitHub URL, indexes the files, and analyzes Python, JavaScript, and TypeScript structure with static rules. Results retain file-and-line evidence, patch drafts, scope validation, and an optional PR flow.
 
-`FastAPI` · `Next.js` · `Static Analysis` · `Evidence`
+**STACK**
 
-[Demo](https://jeonghwanju-repopilot.hf.space/) · [Code Guide](https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html)
+<kbd>FastAPI</kbd> <kbd>Next.js</kbd> <kbd>Static Analysis</kbd> <kbd>Evidence</kbd>
+
+↳ [Demo](https://jeonghwanju-repopilot.hf.space/) · [Code Guide](https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html)
 
 ---
 
@@ -125,9 +123,11 @@ Accepts a public GitHub URL, indexes the files, and analyzes Python, JavaScript,
 
 Unifies documents, code, notebooks, spreadsheets, photo metadata, and MongoDB into one knowledge base. It shows local retrieval results as source cards and connects voice input with a local fallback when an external LLM fails.
 
-`Streamlit` · `TF-IDF` · `Voice` · `Fallback`
+**STACK**
 
-[Demo](https://jeonghwanju-personal-ai-studio.hf.space)
+<kbd>Streamlit</kbd> <kbd>TF-IDF</kbd> <kbd>Voice</kbd> <kbd>Fallback</kbd>
+
+↳ [Demo](https://jeonghwanju-personal-ai-studio.hf.space)
 
 ---
 
@@ -139,9 +139,11 @@ Unifies documents, code, notebooks, spreadsheets, photo metadata, and MongoDB in
 
 Analyzes a question, decides whether to search, observes DuckDuckGo results, and continues with another search or an answer through a ReAct loop. It provides a FastAPI API and browser UI without storing the user-provided key on the server.
 
-`Gemini` · `LangChain` · `DuckDuckGo` · `FastAPI`
+**STACK**
 
-[Demo](https://jeonghwanju-ai-search-agent.hf.space)
+<kbd>Gemini</kbd> <kbd>LangChain</kbd> <kbd>DuckDuckGo</kbd> <kbd>FastAPI</kbd>
+
+↳ [Demo](https://jeonghwanju-ai-search-agent.hf.space)
 
 ---
 
@@ -153,9 +155,11 @@ Analyzes a question, decides whether to search, observes DuckDuckGo results, and
 
 Regularly collects YouTube Data API and CHZZK data, builds JSON and CSV history, regenerates the dashboard, and deploys it to GitHub Pages. The repository captures a repeatable operational flow across different external sources.
 
-`Python` · `GitHub Actions` · `JSON/CSV` · `GitHub Pages`
+**STACK**
 
-[Dashboard](https://coding-jhj.github.io/Stelive_data/)
+<kbd>Python</kbd> <kbd>GitHub Actions</kbd> <kbd>JSON/CSV</kbd> <kbd>GitHub Pages</kbd>
+
+↳ [Dashboard](https://coding-jhj.github.io/Stelive_data/)
 
 ---
 
@@ -167,7 +171,9 @@ Regularly collects YouTube Data API and CHZZK data, builds JSON and CSV history,
 
 Combines dangerous-command blocking, keyword-based skill routing, research verification guidance, and eight subagent templates. It documents non-ASCII encoding and PowerShell pipe issues and checks them with regression tests.
 
-`PowerShell` · `Safety Hooks` · `Skill Router` · `MIT`
+**STACK**
+
+<kbd>PowerShell</kbd> <kbd>Safety Hooks</kbd> <kbd>Skill Router</kbd> <kbd>MIT</kbd>
 
 ---
 
@@ -179,7 +185,9 @@ Combines dangerous-command blocking, keyword-based skill routing, research verif
 
 Uses WebAuthn passkeys and separates account-scoped private data through a Vercel API and Supabase PostgreSQL. The security boundary covers challenge replay prevention, session protection, account-scope checks, and RLS.
 
-`WebAuthn` · `Vercel` · `Supabase` · `RLS`
+**STACK**
+
+<kbd>WebAuthn</kbd> <kbd>Vercel</kbd> <kbd>Supabase</kbd> <kbd>RLS</kbd>
 
 ---
 
@@ -191,9 +199,11 @@ Uses WebAuthn passkeys and separates account-scoped private data through a Verce
 
 [ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK) and [MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD) distinguish timeout, authentication rejection, rate limits, offline status, and schema changes while preserving the last known good value. Live requests and replay fixtures share the same core path, with nine fixtures covering failure and recovery.
 
-`Next.js` · `TypeScript` · `Supabase` · `Replay`
+**STACK**
 
-[Demo](https://t04-real-information-board.vercel.app)
+<kbd>Next.js</kbd> <kbd>TypeScript</kbd> <kbd>Supabase</kbd> <kbd>Replay</kbd>
+
+↳ [Demo](https://t04-real-information-board.vercel.app)
 
 ---
 
@@ -205,17 +215,19 @@ Uses WebAuthn passkeys and separates account-scoped private data through a Verce
 
 Connects the world map, town, guild, shop, NPC, dungeon, battle, compendium, and equipment-upgrade flows through static hosting. It includes a Canvas pixel background, modular code, responsive mobile layout, and headless QA for battles, saves, and progression gates.
 
-`HTML/CSS/JS` · `Canvas` · `Responsive` · `Playwright`
+**STACK**
 
-[Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/)
+<kbd>HTML/CSS/JS</kbd> <kbd>Canvas</kbd> <kbd>Responsive</kbd> <kbd>Playwright</kbd>
+
+↳ [Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/)
 
 ## Toolkit
 
 **TOOLS**
 
-`Python` · `FastAPI` · `Pydantic` · `PostgreSQL` · `Chroma` · `BM25` · `Gemini` · `RAG` · `QLoRA`
+<kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>Pydantic</kbd> <kbd>PostgreSQL</kbd> <kbd>Chroma</kbd> <kbd>BM25</kbd> <kbd>Gemini</kbd> <kbd>RAG</kbd> <kbd>QLoRA</kbd>
 
-`Kotlin` · `Android` · `TFLite` · `React` · `TypeScript` · `Docker` · `GitHub Actions`
+<kbd>Kotlin</kbd> <kbd>Android</kbd> <kbd>TFLite</kbd> <kbd>React</kbd> <kbd>TypeScript</kbd> <kbd>Docker</kbd> <kbd>GitHub Actions</kbd>
 
 ## All Public Repositories
 
@@ -261,4 +273,4 @@ Connects the world map, town, guild, shop, NPC, dungeon, battle, compendium, and
 
 ## Contact
 
-[GitHub](https://github.com/coding-jhj)
+↳ [GitHub](https://github.com/coding-jhj)
