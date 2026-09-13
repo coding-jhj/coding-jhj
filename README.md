@@ -1,372 +1,249 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,45:6366F1,100:A855F7&height=220&section=header&text=Jeong%20Hwan%20Ju&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI%20Agent%20%7C%20On-Device%20AI%20%7C%20Data%20Product%20%7C%20Android&descAlignY=58&descSize=18" alt="header" />
+# Jeong Hwan Ju
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=6366F1&center=true&vCenter=true&width=900&lines=Idea+%E2%86%92+Prototype+%E2%86%92+Product+%E2%86%92+Deployment;AI+Agents+with+Evidence%2C+Not+Just+Text;On-Device+AI+%2B+FastAPI+%2B+Data+Dashboards;Small+Projects%2C+Real+Shipping)](https://git.io/typing-svg)
+### AI Engineer building toward Post-training Research
 
-### 아이디어를 빠르게 검증하고, 실제로 배포되는 제품으로 완성하는 빌더입니다.
+I build reliable AI systems through data curation, evaluation, grounded generation,
+safety boundaries, and deployment-aware engineering.
+
+`Post-training` `Evaluation` `RAG` `Guardrails` `On-device AI`
 
 <p>
-  <a href="https://github.com/coding-jhj"><img src="https://img.shields.io/badge/GitHub-coding--jhj-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="#-featured-projects"><img src="https://img.shields.io/badge/Public%20Project%20Repos-8-22c55e?style=for-the-badge" /></a>
-  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Focus-AI%20Agent%20%7C%20Data%20%7C%20Android-2563eb?style=for-the-badge" /></a>
-  <a href="#-live-demos"><img src="https://img.shields.io/badge/Demos-HuggingFace%20%7C%20Cloud%20Run%20%7C%20Pages-f97316?style=for-the-badge" /></a>
+  <a href="https://github.com/coding-jhj">GitHub</a> |
+  <a href="#selected-work">Selected Work</a> |
+  <a href="#research-track">Research Track</a> |
+  <a href="#all-public-repositories">All Repositories</a>
 </p>
 
 </div>
 
 ---
 
-## 👋 About Me
+## What I Build
 
-저는 **AI Agent, 온디바이스 AI, 데이터 제품, Android 앱, 웹 인터랙션**을 중심으로 프로젝트를 만드는 개발자입니다.  
-단순히 코드를 작성하는 것에서 끝내지 않고, 사용자가 바로 열어볼 수 있는 **데모·대시보드·문서·배포 환경**까지 함께 만드는 것을 중요하게 생각합니다.
+I focus on the boundary between model capability and product reliability:
+
+- **Evaluation-driven AI:** fixed datasets, regression checks, explicit failure cases, and reproducible experiment records.
+- **Grounded generation:** retrieval, source evidence, deterministic rules, and guardrails around model output.
+- **Deployment-aware systems:** on-device inference, GPU-backed services, fallbacks, observability, and practical delivery.
+- **Human-centered interfaces:** accessibility feedback, privacy-aware workflows, and products that can be opened and tested.
+
+My preferred loop is:
 
 ```text
-문제 발견
-  → 작은 MVP 설계
-  → 핵심 기능 구현
-  → 테스트 / 문서화
-  → Hugging Face · Cloud Run · GitHub Pages 배포
-  → 피드백 기반 개선
+Problem
+  -> Data and scope
+  -> Baseline
+  -> Controlled experiment
+  -> Evaluation and failure analysis
+  -> Deployable system
 ```
 
-제가 특히 좋아하는 프로젝트는 다음과 같습니다.
+## Recognition
 
-- **근거를 남기는 AI Agent**: 단순 답변이 아니라, 어떤 파일과 라인을 보고 판단했는지 보여주는 Agent
-- **현실 기기에서 동작하는 AI**: 서버에 모든 것을 보내지 않고, Android 기기 안에서 빠르게 추론하는 AI
-- **데이터를 제품으로 바꾸는 대시보드**: 수집 → 정제 → 저장 → 시각화 → 자동 배포까지 이어지는 데이터 파이프라인
-- **바로 실행되는 웹 경험**: 설치 없이 브라우저에서 열리는 게임, 교재, 인터랙티브 문서
+> **Minister of Employment and Labor Award (Encouragement Award)**
+>
+> **Project:** [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
+>
+> **Role:** Team Lead, AI/LLM
 
----
+Lease-Companion is a contract review assistant for first-time tenants. It combines
+document extraction, cross-document checks, an explicit Python rule engine, official-source
+retrieval, and privacy-aware processing. The system is designed to provide evidence-backed
+questions and actions rather than making unsafe legal or safety claims.
 
-## 🧭 Portfolio at a Glance
+## Selected Work
 
-| Area | Representative Projects | What I Build |
+### 01 | [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
+
+**Awarded contract analysis assistant | Team Lead, AI/LLM**
+
+- Structured contract, registry, and building documents before analysis.
+- Used hosted LLMs for document structuring and explanation while keeping final judgments in a Python rule engine.
+- Connected official legal and public sources through RAG without allowing retrieval to change rule results.
+- Applied local PII tokenization before external model calls and local restoration after processing.
+- Built evaluation and regression workflows around synthetic, de-identified goldsets.
+
+**Offline evidence:** R01-R10 regression `100/100`; J01-J13 regression `51/51`.
+These are fixed synthetic goldset results, not a claim about generalization to every real contract.
+
+[Repository](https://github.com/coding-jhj/Lease-Companion) |
+[AI Evaluation Plan](https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md)
+
+### 02 | [VoiceGuide](https://github.com/coding-jhj/VoiceGuide)
+
+**On-device walking assistant for blind and low-vision users**
+
+- Ran YOLO/TFLite obstacle detection on Android camera frames without sending raw frames to the server.
+- Used temporal voting, IoU tracking, and EMA smoothing to reduce unstable alerts.
+- Delivered risk-aware haptic feedback, Korean TTS, and audio cues on the device.
+- Connected FastAPI, GPS events, SSE, and a Cloud Run dashboard for system monitoring.
+
+[Repository](https://github.com/coding-jhj/VoiceGuide)
+
+### 03 | [Rainbow-Bridge](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
+
+**AI and infrastructure contributor | Contribution branch: `jeonghwanju`**
+
+- Integrated and operated a Qwen3 GPU TTS service with asynchronous execution.
+- Implemented tone mapping and voice behavior for recovery-oriented conversations.
+- Worked on STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows.
+- Supported PM2 operations and the demo video generation pipeline.
+
+This project is linked to the contribution branch because the work is branch-specific.
+
+## Research Track
+
+### [foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab)
+
+**Reproducible decoder-only language model research lab**
+
+The lab covers tokenizer and causal self-attention implementations, compact decoder-only
+Transformers, training configuration, checkpoints, validation loss, generation, and
+experiment records. It is a foundation for research engineering and pre-training work,
+not a claim of completed post-training results.
+
+### [MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER)
+
+**Research engineering workflow system**
+
+A Plan -> Do -> See workspace for turning goals into tasks, execution logs, reviews,
+and measurable next experiments. The project documents my preparation for
+Post-training Research Engineer work.
+
+### Local-model evaluation direction
+
+Lease-Companion also contains an optional 7B 4-bit QLoRA comparison track. The current
+repository contains preprocessing, configuration, and evaluation scaffolding; the local
+model is outside the MVP critical path, and no trained weights or checkpoint are presented
+as completed results.
+
+## Independent Builds
+
+### [RepoPilot](https://github.com/coding-jhj/RepoPilot)
+
+Evidence-grounded repository analysis agent that produces file-and-line findings,
+static-analysis results, and patch drafts. It is designed for free-first deployment.
+
+[Live Demo](https://jeonghwanju-repopilot.hf.space/) |
+[Code Guide](https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html)
+
+### [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio)
+
+Source-grounded personal AI workspace for documents, code, notebooks, spreadsheets,
+and photo metadata. It exposes citations and keeps a local retrieval fallback when
+external services are unavailable.
+
+[Live Demo](https://jeonghwanju-personal-ai-studio.hf.space)
+
+### [AI_AGENT](https://github.com/coding-jhj/AI_AGENT)
+
+ReAct web-search agent using Gemini, LangChain, DuckDuckGo, FastAPI, and Hugging Face Spaces.
+
+[Live Demo](https://jeonghwanju-ai-search-agent.hf.space)
+
+### [Stelive_data](https://github.com/coding-jhj/Stelive_data)
+
+Automated YouTube and CHZZK data pipeline with JSON/CSV outputs, scheduled GitHub Actions,
+and a GitHub Pages dashboard.
+
+[Live Dashboard](https://coding-jhj.github.io/Stelive_data/)
+
+### [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit)
+
+MIT-licensed Claude Code harness for Windows and PowerShell, including safety hooks,
+skill routing, regression tests, and eight subagent templates.
+
+### [ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK) /
+[MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD)
+
+Reliability-focused information dashboard with stale-data handling, replay fixtures,
+and failure-aware data presentation.
+
+### [aleph-first-homework](https://github.com/coding-jhj/aleph-first-homework)
+
+Passkey-based private portfolio using WebAuthn, Supabase PostgreSQL, and a deployed web flow.
+
+### [ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE)
+
+Playable single-file browser RPG with a world map, party management, dungeons, and turn-based combat.
+
+[Play Now](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/)
+
+## Engineering Toolkit
+
+`Python` `FastAPI` `Pydantic` `PostgreSQL` `Chroma` `BM25` `Gemini`
+`RAG` `QLoRA` `Kotlin` `Android` `TFLite` `React` `TypeScript`
+`Docker` `GitHub Actions` `Cloud Run` `Hugging Face Spaces`
+
+## Live Demos
+
+| Project | Demo | Platform |
 |---|---|---|
-| 🦮 Accessibility AI | [VoiceGuide](https://github.com/coding-jhj/VoiceGuide) | Android 온디바이스 객체 탐지, 한국어 TTS, 진동 피드백, 실시간 대시보드 |
-| 🤖 AI Agents | [RepoPilot](https://github.com/coding-jhj/RepoPilot), [AI_AGENT](https://github.com/coding-jhj/AI_AGENT) | 저장소 분석 Agent, ReAct 검색 Agent, evidence 기반 분석, patch draft |
-| 🧠 AI Workspace | [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio) | 음성 + RAG + LLM, 출처 카드 기반 답변, 다중 지식 소스 통합 |
-| 📊 Data Products | [Stelive_data](https://github.com/coding-jhj/Stelive_data) | API/스크래핑 수집, CSV/JSON 저장, GitHub Actions 자동화, Pages 대시보드 |
-| 🧰 Dev Tooling | [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit) | Windows/PowerShell용 Claude Code 하네스, 안전 훅, 스킬 라우터, 서브에이전트 |
-| 📚 Learning System | [Review-Estcamp-AI-Human](https://github.com/coding-jhj/Review-Estcamp-AI-Human) | Python 기초부터 Transformer/BERT까지 학습 정리, 실습 코드, 예제 기반 복습 |
-| 🎮 Web Experience | [ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE) | 단일 HTML 기반 픽셀 RPG, 월드맵, 파티 편성, 턴제 전투 |
-
----
-
-## 🛠 Tech Stack
-
-<div align="center">
-
-### AI · Agent · ML
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow%20Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/YOLO-111111?style=flat-square" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-</p>
-
-### Backend · API · Data
-<p>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/GeoJSON-65A143?style=flat-square" />
-</p>
-
-### App · Frontend · Deployment
-<p>
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Cloud%20Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🦮 VoiceGuide
-
-**시각장애인을 위한 온디바이스 AI 보행 보조 앱**
-
-Android 카메라 프레임을 서버로 보내지 않고, 기기 내부에서 YOLO/TFLite로 장애물을 탐지합니다. 위험도에 따라 **진동·한국어 TTS·비프음**을 출력하고, 서버는 탐지 JSON과 GPS를 받아 실시간 대시보드와 공공데이터 기반 보행 시나리오를 제공합니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/VoiceGuide"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://voiceguide-1063164560758.asia-northeast3.run.app/dashboard"><img src="https://img.shields.io/badge/Live%20Dashboard-4285F4?style=flat-square&logo=googlecloud&logoColor=white" /></a>
-</p>
-
-**Keywords**: Android, Kotlin, CameraX, TFLite, YOLO, FastAPI, SSE, Public Data, Cloud Run
-
-**My Role** (팀 프로젝트): 온디바이스 추론(Android · CameraX · TFLite/YOLO) · FastAPI 서버 · 실시간 대시보드 · 기획 / 공공데이터까지 전 영역 구현
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 RepoPilot
-
-**무료 환경에서 동작하는 GitHub 저장소 분석 Agent MVP**
-
-public GitHub 저장소를 clone하고, 코드를 인덱싱한 뒤, 관련 chunk 검색과 정적 분석 rule을 통해 **파일/라인 근거가 있는 finding**과 patch draft를 생성합니다. OpenAI/Claude/유료 DB 없이 동작하는 free-first 구조입니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/RepoPilot"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://jeonghwanju-repopilot.hf.space/"><img src="https://img.shields.io/badge/Live%20Demo-FFD21E?style=flat-square" /></a>
-  <a href="https://coding-jhj.github.io/RepoPilot/repopilot-code-guide.html"><img src="https://img.shields.io/badge/Code%20Guide-6366F1?style=flat-square" /></a>
-</p>
-
-**Keywords**: FastAPI, Next.js, Python AST, Retrieval, Static Analysis, Patch Draft, Hugging Face
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 AI Search Agent
-
-**스스로 검색하고 판단하는 ReAct 기반 AI Agent**
-
-질문을 받으면 검색이 필요한지 판단하고, DuckDuckGo 검색 결과를 관찰한 뒤 답변을 생성하는 Agent입니다. Gemini 3.5 Flash, LangChain ReAct, FastAPI, Hugging Face Spaces를 사용합니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/AI_AGENT"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://jeonghwanju-ai-search-agent.hf.space"><img src="https://img.shields.io/badge/Live%20Demo-FFD21E?style=flat-square" /></a>
-</p>
-
-**Keywords**: Gemini, LangChain, ReAct, DuckDuckGo, FastAPI, Docker, Hugging Face
-
-</td>
-<td width="50%" valign="top">
-
-### 📊 StelLive Data Dashboard
-
-**스텔라이브 멤버 데이터를 자동 수집·시각화하는 대시보드**
-
-YouTube API와 CHZZK 데이터를 수집하고, 방송·음악·콜라보·팔로워·구독자·영상 데이터를 JSON/CSV로 정리합니다. GitHub Actions로 정기 수집하고 GitHub Pages로 대시보드를 배포합니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/Stelive_data"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://coding-jhj.github.io/Stelive_data/"><img src="https://img.shields.io/badge/Live%20Dashboard-222222?style=flat-square&logo=githubpages&logoColor=white" /></a>
-</p>
-
-**Keywords**: Python, YouTube API, CHZZK, CSV, JSON, GitHub Actions, GitHub Pages
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📚 AI 학습 교재
-
-**Python 기초부터 Transformer · BERT까지 정리한 인터랙티브 HTML 교재**
-
-이스트캠프 AI Human Camp 학습 내용을 하나의 HTML 교재로 정리했습니다. Python, NumPy, 통계/선형대수, 데이터 사이언스, 머신러닝, 딥러닝, CNN, NLP, Attention, Transformer, BERT까지 학습 로드맵을 제공합니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/Review-Estcamp-AI-Human"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://coding-jhj.github.io/Review-Estcamp-AI-Human/AI%20학습%20교재%20_%20coding-jhj%20완전판.html"><img src="https://img.shields.io/badge/Open%20Textbook-6366F1?style=flat-square" /></a>
-</p>
-
-**Keywords**: Python, NumPy, Pandas, scikit-learn, TensorFlow, NLP, BERT, HTML
-
-</td>
-<td width="50%" valign="top">
-
-### ⚔️ Arkan: Forgotten Throne
-
-**설치 없이 바로 플레이하는 단일 HTML 픽셀 RPG**
-
-HTML/CSS/Vanilla JS로 만든 브라우저 RPG입니다. 월드맵, 마을, 길드, 상점, NPC, 파티 편성, 던전, 턴제 전투, 캐릭터 스탯, 도감 등 플레이 가능한 구조를 단일 HTML 파일 안에 담았습니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/"><img src="https://img.shields.io/badge/Play%20Now-FF6B6B?style=flat-square" /></a>
-</p>
-
-**Keywords**: HTML5, CSS3, Vanilla JavaScript, Game Logic, Pixel UI, GitHub Pages
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 Personal AI Studio
-
-**음성·문서·DB·엑셀·사진 메타데이터를 하나로 묶은 출처 기반 AI 워크스페이스**
-
-질문에 대해 어떤 파일·DB·엑셀·사진을 참고했는지 `[S1]`, `[S2]` 출처 카드로 보여주는 Streamlit 앱입니다. Gemini·OpenAI·MongoDB가 없어도 seed 데이터와 Local RAG fallback으로 멈추지 않습니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/Personal-AI-Studio"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://jeonghwanju-personal-ai-studio.hf.space"><img src="https://img.shields.io/badge/Live%20Demo-FFD21E?style=flat-square" /></a>
-</p>
-
-**Keywords**: Streamlit, RAG, Voice/STT, Gemini, OpenAI, MongoDB, Docker
-
-</td>
-<td width="50%" valign="top">
-
-### 🧰 Claude Code PowerShell Kit
-
-**Windows/PowerShell 사용자를 위한 Claude Code 하네스**
-
-bash·macOS 일색인 생태계의 빈틈을 메우는 MIT 오픈소스 킷입니다. 위험 명령 차단 안전 훅, 키워드 스킬 라우터 템플릿 + 회귀 테스트, 서브에이전트 8종, 그리고 한글 훅을 깨뜨리는 UTF-8 BOM 함정까지 해결한 셋업 가이드를 담았습니다.
-
-<p>
-  <a href="https://github.com/coding-jhj/claude-pwsh-kit"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/coding-jhj/claude-pwsh-kit#readme"><img src="https://img.shields.io/badge/MIT%20%C2%B7%20Free-22c55e?style=flat-square" /></a>
-</p>
-
-**Keywords**: Claude Code, PowerShell, Windows, Hooks, Skill Router, Subagents, MIT
-
-</td>
-</tr>
-</table>
-
----
-
-## 📦 Public Repository Map
-
-| Repository | Type | 핵심 내용 |
-|---|---|---|
-| [VoiceGuide](https://github.com/coding-jhj/VoiceGuide) | Accessibility AI App | 온디바이스 객체 탐지, Android TTS/진동 안내, FastAPI 서버, Cloud Run 대시보드 |
-| [RepoPilot](https://github.com/coding-jhj/RepoPilot) | AI Agent / Code Analysis | public repo clone, code indexing, retrieval, static rule, evidence-backed finding, patch draft |
-| [AI_AGENT](https://github.com/coding-jhj/AI_AGENT) | AI Search Agent | ReAct loop, Gemini, DuckDuckGo search, LangChain, FastAPI, Hugging Face 배포 |
-| [Stelive_data](https://github.com/coding-jhj/Stelive_data) | Data Dashboard | YouTube/CHZZK 데이터 수집, JSON/CSV 저장, GitHub Actions 자동화, Pages 대시보드 |
-| [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio) | AI Workspace / RAG | 음성 + RAG + LLM, `[S1]` 출처 카드, 다중 지식 소스 통합, Streamlit, fallback-safe |
-| [Review-Estcamp-AI-Human](https://github.com/coding-jhj/Review-Estcamp-AI-Human) | Learning Textbook | Python부터 Transformer/BERT까지 정리한 인터랙티브 HTML 학습 교재 |
-| [ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE) | Browser Game | 단일 HTML RPG, 월드맵, 던전, 파티, 턴제 전투, GitHub Pages 플레이 |
-| [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit) | Dev Tooling | Windows/PowerShell용 Claude Code 하네스, 안전 훅, 스킬 라우터 템플릿, 서브에이전트 8종, MIT |
-| [coding-jhj](https://github.com/coding-jhj/coding-jhj) | Profile README | 이 프로필 README와 포트폴리오 허브 |
-
----
-
-## 🧩 How I Think About Building
-
-```mermaid
-flowchart LR
-    A[Problem] --> B[MVP Scope]
-    B --> C[Core Feature]
-    C --> D[Evidence / Logs / Tests]
-    D --> E[Deploy]
-    E --> F[README & Demo]
-    F --> G[Improve]
-
-    style A fill:#0ea5e9,color:#fff,stroke:none
-    style B fill:#6366f1,color:#fff,stroke:none
-    style C fill:#8b5cf6,color:#fff,stroke:none
-    style D fill:#14b8a6,color:#fff,stroke:none
-    style E fill:#22c55e,color:#fff,stroke:none
-    style F fill:#f97316,color:#fff,stroke:none
-    style G fill:#ec4899,color:#fff,stroke:none
-```
-
-### 제가 중요하게 보는 기준
-
-| 기준 | 설명 |
-|---|---|
-| 실제 동작 | README만 멋있는 프로젝트보다, 사용자가 눌러볼 수 있는 데모를 선호합니다. |
-| 근거 중심 | AI가 말한 결과에 파일, 라인, 데이터, 로그 같은 근거가 남아야 한다고 생각합니다. |
-| 개인정보 보호 | 가능한 경우 추론을 기기 안에서 처리하고, 서버에는 필요한 최소 데이터만 보냅니다. |
-| 자동화 | 수집, 테스트, 배포를 반복 가능한 형태로 만들어 관리 비용을 줄입니다. |
-| 문서화 | 다른 사람이 프로젝트의 의도와 구조를 빠르게 이해할 수 있도록 README와 해설 문서를 정리합니다. |
-
----
-
-## 🌐 Live Demos
-
-| Demo | Link | Platform |
-|---|---:|---|
-| 🦮 VoiceGuide Dashboard | [Open](https://voiceguide-1063164560758.asia-northeast3.run.app/dashboard) | Google Cloud Run |
-| 🧭 RepoPilot | [Open](https://jeonghwanju-repopilot.hf.space/) | Hugging Face Spaces |
-| 🧠 Personal AI Studio | [Open](https://jeonghwanju-personal-ai-studio.hf.space) | Hugging Face Spaces |
-| 🤖 AI Search Agent | [Open](https://jeonghwanju-ai-search-agent.hf.space) | Hugging Face Spaces |
-| 📊 StelLive Data Dashboard | [Open](https://coding-jhj.github.io/Stelive_data/) | GitHub Pages |
-| 📚 AI 학습 교재 | [Open](https://coding-jhj.github.io/Review-Estcamp-AI-Human/AI%20학습%20교재%20_%20coding-jhj%20완전판.html) | GitHub Pages |
-| ⚔️ Arkan RPG | [Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/) | GitHub Pages |
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=coding-jhj&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coding-jhj&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-
-<br />
-<br />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coding-jhj&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
-
-</div>
-
----
-
-## 🧪 Current Direction
-
-요즘은 다음 주제에 특히 관심이 많습니다.
-
-```text
-AI Agent
-  - 근거 기반 repository 분석
-  - retrieval + static analysis + patch draft
-  - LLM 없이도 설명 가능한 agent workflow
-
-On-Device AI
-  - Android CameraX + TFLite 추론
-  - 개인정보를 보호하는 edge inference
-  - 음성/TTS/진동 기반 접근성 UX
-
-Data Product
-  - public data + API + scraping
-  - 자동 수집과 대시보드 배포
-  - 데이터 기반 의사결정 시나리오
-```
-
----
-
-## 🧑‍💻 Recommended Starting Points
-
-처음 방문했다면 아래 순서로 보면 좋습니다.
-
-1. **실전형 AI + Android + 서버 + 데이터**를 보고 싶다면 → [VoiceGuide](https://github.com/coding-jhj/VoiceGuide)
-2. **AI Agent 아키텍처와 저장소 분석 흐름**을 보고 싶다면 → [RepoPilot](https://github.com/coding-jhj/RepoPilot)
-3. **ReAct 검색 Agent를 빠르게 체험**하고 싶다면 → [AI Search Agent](https://github.com/coding-jhj/AI_AGENT)
-4. **출처 기반 RAG와 음성 AI 워크스페이스**를 보고 싶다면 → [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio)
-5. **데이터 수집 자동화와 대시보드**를 보고 싶다면 → [Stelive_data](https://github.com/coding-jhj/Stelive_data)
-6. **Windows에서 Claude Code 셋업을 다듬고 싶다면** → [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit)
-
----
-
-<div align="center">
-
-### Thanks for visiting 👋
-
-작게 만들고, 끝까지 연결하고, 실제로 배포하는 개발자가 되기 위해 계속 기록하고 있습니다.
-
-<br />
-
-<a href="https://github.com/coding-jhj?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,50:6366F1,100:0EA5E9&height=120&section=footer" alt="footer" />
-
-</div>
+| RepoPilot | [Open demo](https://jeonghwanju-repopilot.hf.space/) | Hugging Face Spaces |
+| Personal AI Studio | [Open demo](https://jeonghwanju-personal-ai-studio.hf.space) | Hugging Face Spaces |
+| AI Search Agent | [Open demo](https://jeonghwanju-ai-search-agent.hf.space) | Hugging Face Spaces |
+| Stelive Data | [Open dashboard](https://coding-jhj.github.io/Stelive_data/) | GitHub Pages |
+| AI Learning Textbook | [Open textbook](https://coding-jhj.github.io/Review-Estcamp-AI-Human/AI%20%ED%95%99%EC%8A%B5%20%EA%B5%90%EC%9E%AC%20_%20coding-jhj%20%EC%99%84%EC%A0%84%ED%8C%90.html) | GitHub Pages |
+| Arkan RPG | [Play](https://coding-jhj.github.io/ARKAN_FORGOTTEN_THRONE/) | GitHub Pages |
+
+## All Public Repositories
+
+The sections above are the projects I want readers to understand first. The complete
+public repository map is kept below so that coursework, experiments, and older work are
+not hidden.
+
+### Profile and research
+
+- [coding-jhj](https://github.com/coding-jhj): this profile README and portfolio hub
+- [foundation-model-lab](https://github.com/coding-jhj/foundation-model-lab): language-model research lab
+- [Lease-Companion](https://github.com/coding-jhj/Lease-Companion): contract analysis assistant
+- [MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER): research engineering workflow
+- [RepoPilot](https://github.com/coding-jhj/RepoPilot): repository analysis agent
+- [AI_AGENT](https://github.com/coding-jhj/AI_AGENT): ReAct search agent
+- [Personal-AI-Studio](https://github.com/coding-jhj/Personal-AI-Studio): source-grounded AI workspace
+
+### Data, product, and engineering
+
+- [VoiceGuide](https://github.com/coding-jhj/VoiceGuide): on-device accessibility AI
+- [Stelive_data](https://github.com/coding-jhj/Stelive_data): automated data dashboard
+- [MINECRART_DASHBOARD](https://github.com/coding-jhj/MINECRART_DASHBOARD): reliability-focused dashboard
+- [ALPEH_FIFTH_HOMEWORK](https://github.com/coding-jhj/ALPEH_FIFTH_HOMEWORK): fixture-driven data product
+- [claude-pwsh-kit](https://github.com/coding-jhj/claude-pwsh-kit): PowerShell AI development harness
+- [aleph-first-homework](https://github.com/coding-jhj/aleph-first-homework): Passkey portfolio
+
+### Learning, creative work, and coursework
+
+- [SKT_ALEPH_STUDY_NOTE](https://github.com/coding-jhj/SKT_ALEPH_STUDY_NOTE): infrastructure and systems study notes
+- [Review-Estcamp-AI-Human](https://github.com/coding-jhj/Review-Estcamp-AI-Human): interactive AI textbook
+- [AI-Career-OS](https://github.com/coding-jhj/AI-Career-OS): early career operating system
+- [ARKAN_FORGOTTEN_THRONE](https://github.com/coding-jhj/ARKAN_FORGOTTEN_THRONE): browser RPG
+- [aleph-ninth-homework](https://github.com/coding-jhj/aleph-ninth-homework): web coursework
+- [aleph-third-homework](https://github.com/coding-jhj/aleph-third-homework): web coursework
+- [alpeh-second-mini-game](https://github.com/coding-jhj/alpeh-second-mini-game): browser game coursework
+- [ALEPH_FIRST_HOMEWORK](https://github.com/coding-jhj/ALEPH_FIRST_HOMEWORK): web coursework
+
+### Archived practice
+
+- [Remote-Git-Practice](https://github.com/coding-jhj/Remote-Git-Practice): Git practice record
+- [weekdays_vacation_python](https://github.com/coding-jhj/weekdays_vacation_python): Python learning record
+
+## Evidence Policy
+
+I separate shipped systems, measured offline results, and planned experiments.
+Metrics in this profile are linked to repository documentation and are labeled when
+they come from fixed synthetic or held-out test sets. A planned fine-tuning path is
+not presented as a trained model, and a regression baseline is not presented as
+real-world generalization.
+
+## Start Here
+
+1. Start with [Lease-Companion](https://github.com/coding-jhj/Lease-Companion) for evaluation-driven AI, RAG, and safety boundaries.
+2. Open [VoiceGuide](https://github.com/coding-jhj/VoiceGuide) for on-device inference and accessibility engineering.
+3. Open [Rainbow-Bridge](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju) for my team-project AI and infrastructure contribution.
+4. Try [RepoPilot](https://jeonghwanju-repopilot.hf.space/) for a live evidence-grounded agent.
+
+## Contact
+
+[GitHub](https://github.com/coding-jhj)
