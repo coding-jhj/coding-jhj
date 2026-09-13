@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="./assets/profile-header.svg" alt="Minimal research engineering header" width="100%" />
+  <img src="./assets/profile-header-minimal.svg" alt="Minimal research engineering header" width="100%" />
 </p>
 
 # Jeong Hwan Ju
