@@ -1,22 +1,20 @@
-<div align="center">
-
-<img src="./assets/profile-header.svg" alt="Abstract profile header for post-training research" width="100%" />
+<p align="left">
+  <img src="./assets/profile-header.svg" alt="Minimal research engineering header" width="100%" />
+</p>
 
 # Jeong Hwan Ju
 
 ### AI Engineer building toward Post-training Research
 
-I build evaluation-driven AI systems with grounded generation,
+I build evaluation-driven AI systems with grounded generation,<br />
 explicit safety boundaries, and deployment-aware engineering.
 
 <p>
-  <a href="#selected-work">Selected Work</a> |
-  <a href="#research-direction">Research Direction</a> |
-  <a href="#independent-work">Independent Work</a> |
+  <a href="#selected-work">Selected Work</a> ·
+  <a href="#research-direction">Research Direction</a> ·
+  <a href="#independent-work">Independent Work</a> ·
   <a href="https://github.com/coding-jhj">GitHub</a>
 </p>
-
-</div>
 
 > **Recognition**
 >
@@ -27,83 +25,59 @@ explicit safety boundaries, and deployment-aware engineering.
 
 ### 01 / Recognition | [Lease-Companion](https://github.com/coding-jhj/Lease-Companion)
 
-<table>
-  <tr>
-    <td valign="top" width="18%"><sub>FOCUS</sub></td>
-    <td valign="top"><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>ABOUT</sub></td>
-    <td valign="top">A contract review assistant for first-time tenants. It combines document extraction,
-    cross-document validation, official-source retrieval, and a Python rule engine to provide
-    evidence-backed questions and actions instead of unsafe legal or safety claims.</td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>STACK</sub></td>
-    <td valign="top"><code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code></td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>EVIDENCE</sub></td>
-    <td valign="top"><strong>Offline evidence:</strong> <code>R01-R10: 100/100</code> | <code>J01-J13: 51/51</code><br />
-    Fixed synthetic goldset regression results, not a claim about every real contract.</td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>LINKS</sub></td>
-    <td valign="top"><a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> |
-    <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a></td>
-  </tr>
-</table>
+<p><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></p>
+
+A contract review assistant for first-time tenants. It combines document extraction,
+cross-document validation, official-source retrieval, and a Python rule engine to provide
+evidence-backed questions and actions instead of unsafe legal or safety claims.
+
+<p>
+  <sub>STACK</sub><br />
+  <code>Document AI</code> <code>Rule Engine</code> <code>RAG</code> <code>Privacy</code> <code>Evaluation</code>
+</p>
+
+> <strong>Offline evidence:</strong> <code>R01-R10: 100/100</code> | <code>J01-J13: 51/51</code><br />
+> Fixed synthetic goldset regression results, not a claim about every real contract.
+
+<p>
+  <a href="https://github.com/coding-jhj/Lease-Companion">Repository</a> |
+  <a href="https://github.com/coding-jhj/Lease-Companion/blob/main/docs/ai/evaluation-plan.md">Evaluation Plan</a>
+</p>
 
 <hr />
 
 ### 02 / On-device AI | [VoiceGuide](https://github.com/coding-jhj/VoiceGuide)
 
-<table>
-  <tr>
-    <td valign="top" width="18%"><sub>FOCUS</sub></td>
-    <td valign="top"><strong>Walking assistant for blind and low-vision users</strong></td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>ABOUT</sub></td>
-    <td valign="top">An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
-    then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
-    connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
-    to the server.</td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>STACK</sub></td>
-    <td valign="top"><code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code></td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>LINKS</sub></td>
-    <td valign="top"><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></td>
-  </tr>
-</table>
+<p><strong>Walking assistant for blind and low-vision users</strong></p>
+
+An Android system that runs YOLO/TFLite obstacle detection on device camera frames,
+then delivers stable risk-aware haptic feedback, Korean TTS, and audio cues. The system
+connects FastAPI, GPS events, SSE, and a Cloud Run dashboard without sending raw frames
+to the server.
+
+<p>
+  <sub>STACK</sub><br />
+  <code>Android</code> <code>Kotlin</code> <code>TFLite</code> <code>YOLO</code> <code>FastAPI</code> <code>Accessibility</code>
+</p>
+
+<p><a href="https://github.com/coding-jhj/VoiceGuide">Repository</a></p>
 
 <hr />
 
 ### 03 / AI Infrastructure | [Rainbow-Bridge](https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju)
 
-<table>
-  <tr>
-    <td valign="top" width="18%"><sub>FOCUS</sub></td>
-    <td valign="top"><strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong></td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>ABOUT</sub></td>
-    <td valign="top">Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
-    STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
-    PM2 operations, and the demo video generation pipeline.</td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>STACK</sub></td>
-    <td valign="top"><code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code></td>
-  </tr>
-  <tr>
-    <td valign="top"><sub>LINKS</sub></td>
-    <td valign="top"><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></td>
-  </tr>
-</table>
+<p><strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong></p>
+
+Contributed to Qwen3 GPU TTS with asynchronous execution, tone mapping,
+STT/Gemini evaluation, recovery scoring, backend TTS and timeline flows,
+PM2 operations, and the demo video generation pipeline.
+
+<p>
+  <sub>STACK</sub><br />
+  <code>Qwen3 TTS</code> <code>GPU Service</code> <code>Evaluation</code> <code>PM2</code> <code>Backend</code>
+</p>
+
+<p><a href="https://github.com/mosejong/Rainbow-Bridge/tree/jeonghwanju">Contribution Branch</a></p>
 
 ## Research Direction
 
@@ -111,20 +85,21 @@ explicit safety boundaries, and deployment-aware engineering.
 
 Reproducible decoder-only language model experiments covering tokenizers,
 causal self-attention, compact Transformers, checkpoints, validation loss,
-generation, and experiment records. This is a foundation for research engineering
-and pre-training work, not a claim of completed post-training results.
+generation, and experiment records.
+
+<p><strong>This is a foundation for research engineering and pre-training work, not a claim of completed post-training results.</strong></p>
 
 ### [MY_CAREER_PLANNER](https://github.com/coding-jhj/MY_CAREER_PLANNER)
 
 A Plan -> Do -> See workspace for research goals, execution logs, reviews,
-and measurable next experiments. It documents my preparation for Post-training
-Research Engineer work.
+and measurable next experiments. It documents my preparation for
+<strong>Post-training Research Engineer</strong> work.
 
 ### Local-model direction
 
 Lease-Companion contains an optional 7B 4-bit QLoRA comparison track. The current
 repository contains preprocessing, configuration, and evaluation scaffolding;
-no trained weights or checkpoint are presented as completed results.
+<strong>no trained weights or checkpoint are presented as completed results.</strong>
 
 ## Independent Work
 
@@ -139,8 +114,8 @@ no trained weights or checkpoint are presented as completed results.
 
 ## Toolkit
 
-`Python` `FastAPI` `Pydantic` `PostgreSQL` `Chroma` `BM25` `Gemini` `RAG`
-`QLoRA` `Kotlin` `Android` `TFLite` `React` `TypeScript` `Docker` `GitHub Actions`
+Python · FastAPI · Pydantic · PostgreSQL · Chroma · BM25 · Gemini · RAG · QLoRA<br />
+Kotlin · Android · TFLite · React · TypeScript · Docker · GitHub Actions
 
 ## All Public Repositories
 
