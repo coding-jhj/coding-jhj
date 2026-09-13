@@ -29,7 +29,7 @@ explicit safety boundaries, and deployment-aware engineering.
 
 <table>
   <tr>
-    <td valign="top" width="18%"><sub>ROLE</sub></td>
+    <td valign="top" width="18%"><sub>FOCUS</sub></td>
     <td valign="top"><strong>Awarded contract analysis assistant | Team Lead, AI/LLM</strong></td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@ explicit safety boundaries, and deployment-aware engineering.
 
 <table>
   <tr>
-    <td valign="top" width="18%"><sub>ROLE</sub></td>
+    <td valign="top" width="18%"><sub>FOCUS</sub></td>
     <td valign="top"><strong>Walking assistant for blind and low-vision users</strong></td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ explicit safety boundaries, and deployment-aware engineering.
 
 <table>
   <tr>
-    <td valign="top" width="18%"><sub>ROLE</sub></td>
+    <td valign="top" width="18%"><sub>FOCUS</sub></td>
     <td valign="top"><strong>AI and infrastructure contributor | Contribution branch: <code>jeonghwanju</code></strong></td>
   </tr>
   <tr>
